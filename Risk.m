@@ -1,57 +1,140 @@
-clc; clearvars -except Injury AssortedData TeamRankings; close all
+clc; clear all; close all
 
 tic;
 
-wk = 17;
+wk = 12;
+fittingOrder = 5;
 
-lines2read = 1196;
-if( exist( 'Injury', 'var' ) ~= 1 )
-    Injury = Injuryimport( "FantasyDatacom_WkByWk.xlsm", "Injury List", [ 2 lines2read ] );
-end
+% Load Injury data
+InjuryDataGenerator;
+load( 'Injury.mat' );
 
-lines2read = 33;
-if( exist( 'AssortedData', 'var' ) ~= 1 )
-    TeamRankings = RankingsImport( "FantasyDatacom_WkByWk.xlsm", "Team Rankings", [ 2 lines2read ] );
-end
+% Load General Data
+DataSetGenerator;
+load( 'Training.mat' );
+train = T;
 
-lines2read = 6268;
-if( exist( 'AssortedData', 'var' ) ~= 1 )
-    AssortedData = AssortedDataimport( "FantasyDatacom_WkByWk.xlsm", "Data-2019RegSeason", [ 2 lines2read ] );
-end
+load( 'Validation.mat' );
+validate = T;
 
-C = unique( AssortedData{ 1:end, 2 } );
-pNum = length( C );
+load( 'Testing.mat' );
+testing = T;
 
+% load Team Rankings Data
+TeamRankingsGenerator;
+load( 'TeamRankings.mat' );
+
+Player = unique( train{ 1:end, 2 } );
+pNum = length( Player );
+
+% create output variables
+ExpectedPoints = zeros( pNum,  1 );
 risk = zeros( pNum, 1 );
-[ mTR, nTR ] = size( TeamRankings );
-[ mAD, nAD ] = size( AssortedData );
+Week = zeros( pNum, 1 );
+Position = strings( pNum, 1 );
 
-for i = 1:pNum
-    % check if injurt is present, set risk to 100 then skip
-    if( Injury{ i, 2 } == 1 )
-        risk( i ) = 100;
-        continue;
+% just for testing
+currentWeights = [ 1, 0.35, .1, .4 ];
+prevErr = -1;
+
+while( 1 )
+    for i = 1:length( Player )
+       % get data from the player's team
+       playerTeam = playerTeamData( train, TeamRankings, Player( i ) );
+
+       % get data from the player's opponent
+       oppTeam = playerTeam{ 1, getHeaderInd( playerTeam, strcat( "x", int2str( wk ) ) ) };
+       if( strcmp( oppTeam, "BYE" ) )
+           risk( i ) = 100;
+           continue;
+       end
+       oppTeam = getTeamData( TeamRankings, oppTeam );
+
+       % create the following vector of interest
+       % 1) difference in ranking
+       % 2) difference in average pt diff
+       % 3) difference in max win
+       % 4) difference in max loss
+       v1 = getHeaderInd( playerTeam, "Rank" );
+       v2 = getHeaderInd( playerTeam, "AveragePtDiff" );
+       v3 = getHeaderInd( playerTeam, "MaxWin" );
+       v4 = getHeaderInd( playerTeam, "MaxLoss" );
+
+       aV = [ playerTeam{ 1, v1 } - oppTeam{ 1, v1 };
+              playerTeam{ 1, v2 } - oppTeam{ 1, v2 };
+              playerTeam{ 1, v3 } - oppTeam{ 1, v3 };
+              playerTeam{ 1, v4 } - oppTeam{ 1, v4 } ];
+
+       risk( i ) = currentWeights * aV;
+       ExpectedPoints( i ) = ExpectedPts_LR( train, Player( i ), wk, fittingOrder );
+%        ExpectedPoints( i ) = ExpectedPts_RR( train, Player( i ), wk, 0.1 );
+       Week( i ) = wk;
+       Position( i ) = cellstr( getPlayerPosition( train, Player( i ) ) );
+
+       progress_bar( i, pNum, 0 );
+    end
+
+    %%
+    T = table( Player, ExpectedPoints, risk, Week, Position );
+
+    [ QB, RB, WR, TE, DST, K ] = GeneratePositions( T );
+    [ A, r ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K );
+
+    [ x ] = teamSelector( A, r, 30 );
+
+    [ row, col ] = find( x > 0.9 );
+
+    picks = [ row, col ];
+    picks = sortrows( picks, 1 );
+
+    playerInd = getHeaderInd( QB, 'Player' );
+    ptsInd = getHeaderInd( QB, 'ExpectedPoints' );
+    riskInd = getHeaderInd( QB, 'risk' );
+
+    fprintf("Selected Team: \n" )
+    fprintf("QB: %s, pts: %f, risk: %f\n", QB{ picks( 1, 2 ), playerInd }, QB{ picks( 1, 2 ), ptsInd }, ...
+                                           QB{ picks( 1, 2 ), riskInd } );
+    fprintf("RB1: %s, pts: %f, risk: %f\n", RB{ picks( 2, 2 ), playerInd }, RB{ picks( 2, 2 ), ptsInd }, ...
+                                           RB{ picks( 2, 2 ), riskInd } );
+    fprintf("RB2: %s, pts: %f, risk: %f\n", RB{ picks( 3, 2 ), playerInd }, RB{ picks( 3, 2 ), ptsInd }, ...
+                                           RB{ picks( 3, 2 ), riskInd } );
+    fprintf("WR1: %s, pts: %f, risk: %f\n", WR{ picks( 4, 2 ), playerInd }, WR{ picks( 4, 2 ), ptsInd }, ...
+                                           WR{ picks( 4, 2 ), riskInd } );
+    fprintf("WR2: %s, pts: %f, risk: %f\n", WR{ picks( 5, 2 ), playerInd }, WR{ picks( 5, 2 ), ptsInd }, ...
+                                           WR{ picks( 5, 2 ), riskInd } );
+    fprintf("TE: %s, pts: %f, risk: %f\n", TE{ picks( 6, 2 ), playerInd }, TE{ picks( 6, 2 ), ptsInd }, ...
+                                           TE{ picks( 7, 2 ), riskInd } );
+    fprintf("DST: %s, pts: %f, risk: %f\n", DST{ picks( 7, 2 ), playerInd }, DST{ picks( 7, 2 ), ptsInd }, ...
+                                           DST{ picks( 7, 2 ), riskInd } );
+    fprintf("K: %s, pts: %f, risk: %f\n", K{ picks( 8, 2 ), playerInd }, K{ picks( 8, 2 ), ptsInd }, ...
+                                           K{ picks( 8, 2 ), riskInd } );                                   
+
+
+   % calculating error and formulating weights change
+    qbDiff = pts4Player( QB{ picks( 1, 2 ), playerInd }, wk, validate ) - QB{ picks( 1, 2 ), ptsInd };
+    rb1Diff = pts4Player( RB{ picks( 2, 2 ), playerInd }, wk, validate ) - RB{ picks( 2, 2 ), ptsInd };
+    rb2Diff = pts4Player( RB{ picks( 3, 2 ), playerInd }, wk, validate ) - RB{ picks( 3, 2 ), ptsInd };
+    wr1Diff = pts4Player( WR{ picks( 4, 2 ), playerInd }, wk, validate ) - WR{ picks( 4, 2 ), ptsInd };
+    wr2Diff = pts4Player( WR{ picks( 5, 2 ), playerInd }, wk, validate ) - WR{ picks( 5, 2 ), ptsInd };
+    teDiff = pts4Player( TE{ picks( 6, 2 ), playerInd }, wk, validate ) - TE{ picks( 6, 2 ), ptsInd };
+    dstDiff = pts4Player( DST{ picks( 7, 2 ), playerInd }, wk, validate ) - DST{ picks( 7, 2 ), ptsInd };
+    kDiff = pts4Player( K{ picks( 8, 2 ), playerInd }, wk, validate ) - K{ picks( 8, 2 ), ptsInd };
+
+    diff = [ qbDiff, rb1Diff, rb2Diff, wr1Diff, wr2Diff, teDiff, dstDiff, kDiff ];
+    currErr = diff * diff';
+    if( currErr < prevErr )
+        break;
     end
     
-    % get the team of the player
-    ind = find( AssortedData{ :, 2 } == C( i ), 1, 'first' );
-    team = AssortedData{ ind, 5 };
     
-    % store stats from player team
-    tInd = find( TeamRankings{ :, 2 } == cellstr( team ), 1, 'first' );
-    
-    % Wins = 3, Loses, Ties, Total Pt Diff, Average Pt Diff, Pt Variange
-    % Max Loss, Max Win, Rank
-    pTeam = TeamRankings{ tInd, 3:12 };
-    
-    % get opponent team
-    opp = TeamRankings{ tInd, wk+12 };
-    tInd = find( TeamRankings{ :, 2 } == cellstr( opp ), 1, 'first' );
-    
-    oppTeam = TeamRankings{ tInd, 3:12 };
-    
+    prevErr = currErr;
+    grads = eye( 4 );
+    grads( 1, 1 ) = 0.9;
+    grads( 2, 2 ) = 0.2;
+    grads( 3, 3 ) = 0.5;
+    grads( 4, 4 ) = 1.1;
+    currentWeights = currentWeights * grads;
 end
-
 
 toc
 
