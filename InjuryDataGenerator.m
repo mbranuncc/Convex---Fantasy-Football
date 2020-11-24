@@ -1,5 +1,7 @@
 clc;
 
+addpath( "Functions" );
+
 fprintf("Importing Injury Data...\n");
 
 % set error message

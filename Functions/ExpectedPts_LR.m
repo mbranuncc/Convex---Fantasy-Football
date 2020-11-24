@@ -1,4 +1,4 @@
-function [ pts ] = ExpectedPts_LR( data, player, wk, order )
+function [ pts ] = ExpectedPts_LR( data, player, wk, order, NC )
 
 % error message
 emsg = "ERROR: ExpectedPts: ";

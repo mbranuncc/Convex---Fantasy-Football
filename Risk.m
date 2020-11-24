@@ -1,14 +1,31 @@
 clc; clear all; close all
 
+addpath( "Functions/" );
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define functions to use for expected value and team selection
+exVal = @ExpectedPts_RR;
+% exVal = @ExpectedPts_LR;
+
+tmSel = @teamSelector_v2; % use this one if Mosek is not installed
+% tmSel = @teamSelector; % <- Requries Mosek
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 tic;
 
 outputFileName = "Generated Teams.txt";
 fd = fopen( outputFileName, 'w' );
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define working parameters
+
 wk = 12;
 fittingOrder = 3;
 alpha = 15;
 des_pts = 80;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Load Injury data
 InjuryDataGenerator;
@@ -72,8 +89,7 @@ while( 1 )
               playerTeam{ 1, v4 } - oppTeam{ 1, v4 } ];
 
        risk( i ) = currentWeights * aV;
-%        ExpectedPoints( i ) = ExpectedPts_LR( train, Player( i ), wk, fittingOrder );
-       ExpectedPoints( i ) = ExpectedPts_RR( train, Player( i ), wk, fittingOrder, alpha );
+       ExpectedPoints( i ) = exVal( train, Player( i ), wk, fittingOrder, alpha );
        Week( i ) = wk;
        Position( i ) = cellstr( getPlayerPosition( train, Player( i ) ) );
 
@@ -87,7 +103,7 @@ while( 1 )
     [ A, r ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K );
 
 %     [ x ] = teamSelector( A, r, des_pts );
-    [ x ] = teamSelector_v2( A, r, des_pts );
+    [ x ] = tmSel( A, r, des_pts );
 
     [ row, col ] = find( x > 0.3 );
 
@@ -142,11 +158,14 @@ while( 1 )
     
     
     prevErr = currErr;
+    
+    % currently random weight adjustment searching for lower value
     grads = eye( 4 );
     grads( 1, 1 ) = 0.9;
     grads( 2, 2 ) = 0.2;
     grads( 3, 3 ) = 0.5;
     grads( 4, 4 ) = 1.1;
+    
     currentWeights = currentWeights * grads;
     
 %     pause( 5 );
@@ -154,7 +173,16 @@ while( 1 )
     counter = counter + 1;
 end
 
+%%
 fclose( 'all' );
+
+delete( 'Injury.mat' );
+delete( 'Testing.mat' );
+delete( 'Training.mat' );
+delete( 'Validation.mat' );
+delete( 'TeamRankings.mat' );
+
+clc; clear all; close all
 
 toc
 

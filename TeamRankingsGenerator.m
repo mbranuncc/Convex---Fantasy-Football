@@ -1,5 +1,7 @@
 clc;
 
+addpath( "Functions" );
+
 fprintf("Importing Team Rankings Data...\n");
 
 % set error message
