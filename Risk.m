@@ -2,8 +2,13 @@ clc; clear all; close all
 
 tic;
 
+outputFileName = "Generated Teams.txt";
+fd = fopen( outputFileName, 'w' );
+
 wk = 12;
-fittingOrder = 5;
+fittingOrder = 3;
+alpha = 15;
+des_pts = 80;
 
 % Load Injury data
 InjuryDataGenerator;
@@ -37,6 +42,7 @@ Position = strings( pNum, 1 );
 currentWeights = [ 1, 0.35, .1, .4 ];
 prevErr = -1;
 
+counter = 0;
 while( 1 )
     for i = 1:length( Player )
        % get data from the player's team
@@ -45,7 +51,7 @@ while( 1 )
        % get data from the player's opponent
        oppTeam = playerTeam{ 1, getHeaderInd( playerTeam, strcat( "x", int2str( wk ) ) ) };
        if( strcmp( oppTeam, "BYE" ) )
-           risk( i ) = 100;
+           risk( i ) = 1000;
            continue;
        end
        oppTeam = getTeamData( TeamRankings, oppTeam );
@@ -66,8 +72,8 @@ while( 1 )
               playerTeam{ 1, v4 } - oppTeam{ 1, v4 } ];
 
        risk( i ) = currentWeights * aV;
-       ExpectedPoints( i ) = ExpectedPts_LR( train, Player( i ), wk, fittingOrder );
-%        ExpectedPoints( i ) = ExpectedPts_RR( train, Player( i ), wk, 0.1 );
+%        ExpectedPoints( i ) = ExpectedPts_LR( train, Player( i ), wk, fittingOrder );
+       ExpectedPoints( i ) = ExpectedPts_RR( train, Player( i ), wk, fittingOrder, alpha );
        Week( i ) = wk;
        Position( i ) = cellstr( getPlayerPosition( train, Player( i ) ) );
 
@@ -80,9 +86,10 @@ while( 1 )
     [ QB, RB, WR, TE, DST, K ] = GeneratePositions( T );
     [ A, r ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K );
 
-    [ x ] = teamSelector( A, r, 30 );
+%     [ x ] = teamSelector( A, r, des_pts );
+    [ x ] = teamSelector_v2( A, r, des_pts );
 
-    [ row, col ] = find( x > 0.9 );
+    [ row, col ] = find( x > 0.3 );
 
     picks = [ row, col ];
     picks = sortrows( picks, 1 );
@@ -91,38 +98,45 @@ while( 1 )
     ptsInd = getHeaderInd( QB, 'ExpectedPoints' );
     riskInd = getHeaderInd( QB, 'risk' );
 
-    fprintf("Selected Team: \n" )
-    fprintf("QB: %s, pts: %f, risk: %f\n", QB{ picks( 1, 2 ), playerInd }, QB{ picks( 1, 2 ), ptsInd }, ...
-                                           QB{ picks( 1, 2 ), riskInd } );
-    fprintf("RB1: %s, pts: %f, risk: %f\n", RB{ picks( 2, 2 ), playerInd }, RB{ picks( 2, 2 ), ptsInd }, ...
-                                           RB{ picks( 2, 2 ), riskInd } );
-    fprintf("RB2: %s, pts: %f, risk: %f\n", RB{ picks( 3, 2 ), playerInd }, RB{ picks( 3, 2 ), ptsInd }, ...
-                                           RB{ picks( 3, 2 ), riskInd } );
-    fprintf("WR1: %s, pts: %f, risk: %f\n", WR{ picks( 4, 2 ), playerInd }, WR{ picks( 4, 2 ), ptsInd }, ...
-                                           WR{ picks( 4, 2 ), riskInd } );
-    fprintf("WR2: %s, pts: %f, risk: %f\n", WR{ picks( 5, 2 ), playerInd }, WR{ picks( 5, 2 ), ptsInd }, ...
-                                           WR{ picks( 5, 2 ), riskInd } );
-    fprintf("TE: %s, pts: %f, risk: %f\n", TE{ picks( 6, 2 ), playerInd }, TE{ picks( 6, 2 ), ptsInd }, ...
-                                           TE{ picks( 7, 2 ), riskInd } );
-    fprintf("DST: %s, pts: %f, risk: %f\n", DST{ picks( 7, 2 ), playerInd }, DST{ picks( 7, 2 ), ptsInd }, ...
-                                           DST{ picks( 7, 2 ), riskInd } );
-    fprintf("K: %s, pts: %f, risk: %f\n", K{ picks( 8, 2 ), playerInd }, K{ picks( 8, 2 ), ptsInd }, ...
-                                           K{ picks( 8, 2 ), riskInd } );                                   
+    fprintf("Selected Team for Week %d: \n", wk );                                
 
+    posNames = [ "QB", "RB1", "RB2", "WR1", "WR2", "TE", "DST", "K" ];
+    posDBs = { QB; RB; RB; WR; WR; TE; DST; K };
+    
+    tot_score = 0.0;
+    tot_risk = 0.0;
+    
+    for p = 1:length( row )
+        DB = posDBs{ picks( p, 1 ) };
+        tmp = full( x );
+        fprintf( "%s: %s, pts: %f, risk: %f, weight: %5.4f\n", posNames( picks( p, 1 ) ), ...
+                   DB{ picks( p, 2 ), playerInd }, DB{ picks( p, 2 ), ptsInd }, ...
+                    DB{ picks( p, 2 ), riskInd }, tmp( picks( p, 1 ), picks( p, 2 ) ) );
 
+        fprintf( fd, "%s: %s, pts: %f, risk: %f, weight: %5.4f\n", posNames( picks( p, 1 ) ), ...
+                   DB{ picks( p, 2 ), playerInd }, DB{ picks( p, 2 ), ptsInd }, ...
+                    DB{ picks( p, 2 ), riskInd }, tmp( picks( p, 1 ), picks( p, 2 ) ) );
+                
+        tot_score = tot_score + DB{ picks( p, 2 ), ptsInd };
+        tot_risk = tot_risk + DB{ picks( p, 2 ), riskInd };
+    end
+
+    fprintf( "Total Team Score: %f, Total Team Risk: %f\n", tot_score, tot_risk );
+    fprintf( fd, "Total Team Score: %f, Total Team Risk: %f\n", tot_score, tot_risk );
+    for y = 1:length( currentWeights )
+        fprintf( fd, "Weight %d: %f, ", y, currentWeights( y ) );
+    end
+    fprintf( fd, "\n\n" );
+    
    % calculating error and formulating weights change
-    qbDiff = pts4Player( QB{ picks( 1, 2 ), playerInd }, wk, validate ) - QB{ picks( 1, 2 ), ptsInd };
-    rb1Diff = pts4Player( RB{ picks( 2, 2 ), playerInd }, wk, validate ) - RB{ picks( 2, 2 ), ptsInd };
-    rb2Diff = pts4Player( RB{ picks( 3, 2 ), playerInd }, wk, validate ) - RB{ picks( 3, 2 ), ptsInd };
-    wr1Diff = pts4Player( WR{ picks( 4, 2 ), playerInd }, wk, validate ) - WR{ picks( 4, 2 ), ptsInd };
-    wr2Diff = pts4Player( WR{ picks( 5, 2 ), playerInd }, wk, validate ) - WR{ picks( 5, 2 ), ptsInd };
-    teDiff = pts4Player( TE{ picks( 6, 2 ), playerInd }, wk, validate ) - TE{ picks( 6, 2 ), ptsInd };
-    dstDiff = pts4Player( DST{ picks( 7, 2 ), playerInd }, wk, validate ) - DST{ picks( 7, 2 ), ptsInd };
-    kDiff = pts4Player( K{ picks( 8, 2 ), playerInd }, wk, validate ) - K{ picks( 8, 2 ), ptsInd };
-
-    diff = [ qbDiff, rb1Diff, rb2Diff, wr1Diff, wr2Diff, teDiff, dstDiff, kDiff ];
-    currErr = diff * diff';
-    if( currErr < prevErr )
+    diff = zeros( length( row ), 1 );
+    for p = 1:length( row )
+        DB = posDBs{ picks( p, 1 ) };
+        diff( p ) = pts4Player( DB{ picks( p, 2 ), playerInd }, wk, validate ) - DB{ picks( p, 2 ), ptsInd };
+    end
+    
+    currErr = diff' * diff;
+    if( ( currErr < prevErr ) || ( counter > 4 ) )
         break;
     end
     
@@ -134,7 +148,15 @@ while( 1 )
     grads( 3, 3 ) = 0.5;
     grads( 4, 4 ) = 1.1;
     currentWeights = currentWeights * grads;
+    
+%     pause( 5 );
+    
+    counter = counter + 1;
 end
 
+fclose( 'all' );
+
 toc
+
+
 
