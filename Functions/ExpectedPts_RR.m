@@ -34,8 +34,6 @@ x1 = inv( A' * A + I ) * A' * pts;
 % 
 % plot( u2, vpol, '-', u, pts, 'o' );
 
-% x1 = flip( x1 );
-
 f = polyval( x1, wk );
 
 pts = f;

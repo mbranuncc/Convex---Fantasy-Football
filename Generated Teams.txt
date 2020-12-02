@@ -1,34 +1,39 @@
-QB: Mitchell Trubisky, pts: 8.710288, risk: -13.187500, weight: 0.6669
-QB: Ryan Tannehill, pts: 20.108457, risk: -1.625000, weight: 0.3331
-RB1: David Montgomery Q, pts: 7.724908, risk: -13.187500, weight: 1.0000
-RB2: Devin Singletary, pts: 9.931733, risk: -8.933542, weight: 1.0000
-WR1: DK Metcalf, pts: 11.008545, risk: -7.625000, weight: 1.0000
-WR2: James Washington, pts: 10.003726, risk: -10.356250, weight: 1.0000
-TE: Jacob Hollister, pts: 14.957041, risk: -7.625000, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 12.052011, risk: -10.356250, weight: 1.0000
-K: Ka'imi Fairbairn, pts: 1.814895, risk: -12.190625, weight: 1.0000
-Total Team Score: 96.311603, Total Team Risk: -85.086667
+QB: Derek Carr, pts: 19.282256, risk: -10.186667, weight: 0.6694
+QB: Mike Glennon, pts: 0.719626, risk: -10.186667, weight: 0.3306
+RB1: Jalen Richard, pts: 9.578751, risk: -10.186667, weight: 0.3448
+RB1: Josh Jacobs, pts: 22.916525, risk: -10.186667, weight: 0.3803
+RB2: Jalen Richard, pts: 9.578751, risk: -10.186667, weight: 0.3448
+RB2: Josh Jacobs, pts: 22.916525, risk: -10.186667, weight: 0.3803
+WR1: Hunter Renfrow, pts: 16.316544, risk: -10.186667, weight: 0.3606
+WR2: Hunter Renfrow, pts: 16.316544, risk: -10.186667, weight: 0.3610
+TE: Darren Waller, pts: 6.682757, risk: -10.186667, weight: 0.3176
+TE: Derek Carrier, pts: 0.777164, risk: -10.186667, weight: 0.3230
+TE: Foster Moreau, pts: 2.926547, risk: -10.186667, weight: 0.3595
+DST: Las Vegas Raiders, pts: 12.306365, risk: -10.186667, weight: 1.0000
+K: Daniel Carlson, pts: 9.451059, risk: -10.186667, weight: 1.0000
+Total Team Score: 149.769415, Total Team Risk: -132.426667
 Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.400000, 
 
-QB: Ryan Tannehill, pts: 20.108457, risk: -3.835000, weight: 0.8707
-RB1: David Montgomery Q, pts: 7.724908, risk: -13.597500, weight: 1.0000
-RB2: Latavius Murray, pts: 6.711045, risk: -13.359375, weight: 1.0000
-WR1: James Washington, pts: 10.003726, risk: -10.911250, weight: 1.0000
-WR2: Michael Thomas, pts: 6.492336, risk: -13.359375, weight: 1.0000
-TE: Jacob Hollister, pts: 14.957041, risk: -7.575000, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 12.052011, risk: -10.911250, weight: 1.0000
-K: Chris Boswell, pts: 3.423938, risk: -10.911250, weight: 1.0000
-Total Team Score: 81.473462, Total Team Risk: -84.460000
+QB: Josh Allen, pts: 23.231150, risk: -10.526875, weight: 1.0000
+RB1: Devin Singletary, pts: 17.386408, risk: -10.526875, weight: 0.5000
+RB2: Devin Singletary, pts: 17.386408, risk: -10.526875, weight: 0.5000
+TE: Dawson Knox, pts: 4.551877, risk: -10.526875, weight: 0.5045
+DST: Buffalo Bills, pts: 5.311435, risk: -10.526875, weight: 1.0000
+K: Stephen Hauschka, pts: 3.810493, risk: -10.526875, weight: 1.0000
+Total Team Score: 71.677770, Total Team Risk: -63.161250
 Weight 1: 0.900000, Weight 2: 0.070000, Weight 3: 0.050000, Weight 4: 0.440000, 
 
-QB: Ryan Tannehill, pts: 20.108457, risk: -3.290000, weight: 0.7241
-RB1: David Montgomery Q, pts: 7.724908, risk: -12.919500, weight: 1.0000
-RB2: Latavius Murray, pts: 6.711045, risk: -11.947875, weight: 1.0000
-WR1: James Washington, pts: 10.003726, risk: -9.634250, weight: 1.0000
-WR2: Taylor Gabriel, pts: 5.402079, risk: -12.919500, weight: 1.0000
-TE: Jacob Hollister, pts: 14.957041, risk: -7.668000, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 12.052011, risk: -9.634250, weight: 1.0000
-K: Jason Myers, pts: 6.185971, risk: -7.668000, weight: 1.0000
-Total Team Score: 83.145238, Total Team Risk: -75.681375
+QB: Derek Carr, pts: 19.282256, risk: -10.206467, weight: 0.7149
+RB1: Jalen Richard, pts: 9.578751, risk: -10.206467, weight: 0.3220
+RB1: Josh Jacobs, pts: 22.916525, risk: -10.206467, weight: 0.3874
+RB2: Jalen Richard, pts: 9.578751, risk: -10.206467, weight: 0.3237
+RB2: Josh Jacobs, pts: 22.916525, risk: -10.206467, weight: 0.3851
+WR1: Hunter Renfrow, pts: 16.316544, risk: -10.206467, weight: 0.3215
+WR2: Hunter Renfrow, pts: 16.316544, risk: -10.206467, weight: 0.3215
+TE: Darren Waller, pts: 6.682757, risk: -10.206467, weight: 0.3788
+TE: Foster Moreau, pts: 2.926547, risk: -10.206467, weight: 0.3222
+DST: Las Vegas Raiders, pts: 12.306365, risk: -10.206467, weight: 1.0000
+K: Daniel Carlson, pts: 9.451059, risk: -10.206467, weight: 1.0000
+Total Team Score: 148.272625, Total Team Risk: -112.271133
 Weight 1: 0.810000, Weight 2: 0.014000, Weight 3: 0.025000, Weight 4: 0.484000, 
 

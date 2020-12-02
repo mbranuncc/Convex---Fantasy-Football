@@ -13,7 +13,7 @@ scr_wght = 1 - rsk_wght;
 des_rsk = 15;
 
 cvx_begin quiet
-    cvx_solver Mosek
+%     cvx_solver Mosek
     cvx_precision high
     
     variable x( m, n );

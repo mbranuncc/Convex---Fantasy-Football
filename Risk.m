@@ -5,6 +5,7 @@ addpath( "Functions/" );
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % define functions to use for expected value and team selection
 exVal = @ExpectedPts_RR;
+% exVal = @ExpectedPts_LG;
 % exVal = @ExpectedPts_LR;
 
 tmSel = @teamSelector_v2; % use this one if Mosek is not installed
@@ -20,7 +21,7 @@ fd = fopen( outputFileName, 'w' );
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Define working parameters
 
-wk = 12;
+wk = 11;
 fittingOrder = 3;
 alpha = 15;
 des_pts = 80;
@@ -156,8 +157,9 @@ while( 1 )
         break;
     end
     
-    
     prevErr = currErr;
+    
+    % [ newWeihgts] = newWeights( currentWeights, currentError, previousError )
     
     % currently random weight adjustment searching for lower value
     grads = eye( 4 );
