@@ -1,4 +1,4 @@
-function [ ox ] = teamSelector_v2( A, b, des_pts )
+function [ ox ] = teamSelector_v2( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
 
 % non-integer checker
 
@@ -8,12 +8,12 @@ fprintf("Starting Team Optimization...");
 
 r = b;
 
-rsk_wght = 0.1;
-scr_wght = 1 - rsk_wght;
-des_rsk = 15;
+% rsk_wght = 0.1;
+% scr_wght = 1 - rsk_wght;
+% des_rsk = 15;
 
 cvx_begin quiet
-%     cvx_solver Mosek
+    cvx_solver Mosek
     cvx_precision high
     
     variable x( m, n );
@@ -22,10 +22,10 @@ cvx_begin quiet
     
     subject to
         HadamardProdSum( A,  x ) >= des_pts;
-        HadamardProdSum( r, x ) <= des_rsk;
+%         HadamardProdSum( r, x ) <= des_rsk;
         x >= 0.0;
         x <= 1.0;
-%         sum( sum( x ) ) <= m;
+        sum( sum( x ) ) <= m;
         
         for i = 1:m
             trace( diag( x( i, : ) ) ) <= 1.0;

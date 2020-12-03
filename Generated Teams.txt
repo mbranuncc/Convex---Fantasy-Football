@@ -1,39 +1,638 @@
-QB: Derek Carr, pts: 19.282256, risk: -10.186667, weight: 0.6694
-QB: Mike Glennon, pts: 0.719626, risk: -10.186667, weight: 0.3306
-RB1: Jalen Richard, pts: 9.578751, risk: -10.186667, weight: 0.3448
-RB1: Josh Jacobs, pts: 22.916525, risk: -10.186667, weight: 0.3803
-RB2: Jalen Richard, pts: 9.578751, risk: -10.186667, weight: 0.3448
-RB2: Josh Jacobs, pts: 22.916525, risk: -10.186667, weight: 0.3803
-WR1: Hunter Renfrow, pts: 16.316544, risk: -10.186667, weight: 0.3606
-WR2: Hunter Renfrow, pts: 16.316544, risk: -10.186667, weight: 0.3610
-TE: Darren Waller, pts: 6.682757, risk: -10.186667, weight: 0.3176
-TE: Derek Carrier, pts: 0.777164, risk: -10.186667, weight: 0.3230
-TE: Foster Moreau, pts: 2.926547, risk: -10.186667, weight: 0.3595
-DST: Las Vegas Raiders, pts: 12.306365, risk: -10.186667, weight: 1.0000
-K: Daniel Carlson, pts: 9.451059, risk: -10.186667, weight: 1.0000
-Total Team Score: 149.769415, Total Team Risk: -132.426667
+QB: Russell Wilson, pts: 4.259087, risk: -14.775000, weight: 0.5062
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -9.462500, weight: 0.4938
+RB1: Chris Carson O, pts: 15.527632, risk: -14.775000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -14.775000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -14.775000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -14.775000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -14.775000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -14.775000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -14.775000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -14.775000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -14.775000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -14.775000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -14.775000, weight: 1.0000
+Total Team Score: 137.274094, Total Team Risk: -186.762500
 Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.400000, 
 
-QB: Josh Allen, pts: 23.231150, risk: -10.526875, weight: 1.0000
-RB1: Devin Singletary, pts: 17.386408, risk: -10.526875, weight: 0.5000
-RB2: Devin Singletary, pts: 17.386408, risk: -10.526875, weight: 0.5000
-TE: Dawson Knox, pts: 4.551877, risk: -10.526875, weight: 0.5045
-DST: Buffalo Bills, pts: 5.311435, risk: -10.526875, weight: 1.0000
-K: Stephen Hauschka, pts: 3.810493, risk: -10.526875, weight: 1.0000
-Total Team Score: 71.677770, Total Team Risk: -63.161250
-Weight 1: 0.900000, Weight 2: 0.070000, Weight 3: 0.050000, Weight 4: 0.440000, 
+QB: Aaron Rodgers, pts: 4.110129, risk: -17.499583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -17.499583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -17.499583, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -17.499583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -17.499583, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -17.499583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -17.499583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -17.499583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -17.499583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -17.499583, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -15.051667, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -17.499583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -17.499583, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -225.046667
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.400000, 
 
-QB: Derek Carr, pts: 19.282256, risk: -10.206467, weight: 0.7149
-RB1: Jalen Richard, pts: 9.578751, risk: -10.206467, weight: 0.3220
-RB1: Josh Jacobs, pts: 22.916525, risk: -10.206467, weight: 0.3874
-RB2: Jalen Richard, pts: 9.578751, risk: -10.206467, weight: 0.3237
-RB2: Josh Jacobs, pts: 22.916525, risk: -10.206467, weight: 0.3851
-WR1: Hunter Renfrow, pts: 16.316544, risk: -10.206467, weight: 0.3215
-WR2: Hunter Renfrow, pts: 16.316544, risk: -10.206467, weight: 0.3215
-TE: Darren Waller, pts: 6.682757, risk: -10.206467, weight: 0.3788
-TE: Foster Moreau, pts: 2.926547, risk: -10.206467, weight: 0.3222
-DST: Las Vegas Raiders, pts: 12.306365, risk: -10.206467, weight: 1.0000
-K: Daniel Carlson, pts: 9.451059, risk: -10.206467, weight: 1.0000
-Total Team Score: 148.272625, Total Team Risk: -112.271133
-Weight 1: 0.810000, Weight 2: 0.014000, Weight 3: 0.025000, Weight 4: 0.484000, 
+QB: Drew Brees, pts: 39.755567, risk: -7.193750, weight: 0.3202
+QB: Russell Wilson, pts: 4.259087, risk: -16.675000, weight: 0.6798
+RB1: Chris Carson O, pts: 15.527632, risk: -16.675000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -16.675000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -16.675000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -16.675000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -16.675000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -16.675000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -16.675000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -16.675000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -16.675000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -16.675000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -16.675000, weight: 1.0000
+Total Team Score: 149.748307, Total Team Risk: -207.293750
+Weight 1: 1.100000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -19.999583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -19.999583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -19.999583, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -19.999583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -19.999583, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -19.999583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -19.999583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -19.999583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -19.999583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -19.999583, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -16.951667, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -19.999583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -19.999583, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -256.946667
+Weight 1: 1.100000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -14.225000, weight: 0.5062
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -9.737500, weight: 0.4938
+RB1: Chris Carson O, pts: 15.527632, risk: -14.225000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -14.225000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -14.225000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -14.225000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -14.225000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -14.225000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -14.225000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -14.225000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -14.225000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -14.225000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -14.225000, weight: 1.0000
+Total Team Score: 137.274094, Total Team Risk: -180.437500
+Weight 1: 1.000000, Weight 2: 0.450000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -16.613750, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -16.613750, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -16.613750, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -16.613750, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -16.613750, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -16.613750, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -16.613750, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -16.613750, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -16.613750, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -16.613750, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -14.095000, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -16.613750, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -16.613750, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -213.460000
+Weight 1: 1.000000, Weight 2: 0.450000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -13.675000, weight: 0.5062
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -10.762500, weight: 0.4938
+RB1: Chris Carson O, pts: 15.527632, risk: -13.675000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -13.675000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -13.675000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -13.675000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -13.675000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -13.675000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -13.675000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -13.675000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -13.675000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -13.675000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -13.675000, weight: 1.0000
+Total Team Score: 137.274094, Total Team Risk: -174.862500
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -18.299583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -18.299583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -18.299583, weight: 0.3057
+RB2: Aaron Jones, pts: 15.667006, risk: -18.299583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -18.299583, weight: 0.3058
+WR1: Allen Lazard IR, pts: 8.149557, risk: -18.299583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -18.299583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -18.299583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -18.299583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -18.299583, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: -18.299583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -18.299583, weight: 1.0000
+Total Team Score: 120.717691, Total Team Risk: -219.595000
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -14.475000, weight: 0.5062
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -10.262500, weight: 0.4938
+RB1: Chris Carson O, pts: 15.527632, risk: -14.475000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -14.475000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -14.475000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -14.475000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -14.475000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -14.475000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -14.475000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -14.475000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -14.475000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -14.475000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -14.475000, weight: 1.0000
+Total Team Score: 137.274094, Total Team Risk: -183.962500
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.500000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -16.199583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -16.199583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -16.199583, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -16.199583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -16.199583, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -16.199583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -16.199583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -16.199583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -16.199583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -16.199583, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -15.451667, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -16.199583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -16.199583, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -209.846667
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.500000, 
+
+QB: Jimmy Garoppolo IR, pts: 20.636094, risk: -64.490150, weight: 1.0000
+RB1: Raheem Mostert IR, pts: 21.930355, risk: -64.490150, weight: 0.5000
+RB1: Tevin Coleman O, pts: 0.404151, risk: -64.490150, weight: 0.5000
+RB2: Raheem Mostert IR, pts: 21.930355, risk: -64.490150, weight: 0.5000
+RB2: Tevin Coleman O, pts: 0.404151, risk: -64.490150, weight: 0.5000
+WR1: Deebo Samuel, pts: 14.400445, risk: -64.490150, weight: 0.5000
+WR1: Kendrick Bourne, pts: 10.121117, risk: -64.490150, weight: 0.5000
+WR2: Deebo Samuel, pts: 14.400445, risk: -64.490150, weight: 0.5000
+WR2: Kendrick Bourne, pts: 10.121117, risk: -64.490150, weight: 0.5000
+TE: Ross Dwelley, pts: 1.796100, risk: -64.490150, weight: 0.8036
+DST: San Francisco 49ers, pts: 0.015905, risk: -64.490150, weight: 1.0000
+K: Robbie Gould, pts: 7.289557, risk: -64.490150, weight: 1.0000
+Total Team Score: 123.449792, Total Team Risk: -773.881799
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: -1.904087, Weight 4: 0.400000, 
+
+QB: Tom Brady, pts: 9.371679, risk: -62.552650, weight: 1.0000
+RB1: James White, pts: 11.938496, risk: -62.552650, weight: 0.4962
+RB1: Rex Burkhead, pts: 12.079230, risk: -62.552650, weight: 0.5038
+RB2: James White, pts: 11.938496, risk: -62.552650, weight: 0.5038
+RB2: Rex Burkhead, pts: 12.079230, risk: -62.552650, weight: 0.4962
+WR1: Julian Edelman IR, pts: 9.195607, risk: -62.552650, weight: 0.5000
+WR1: N'Keal Harry O, pts: 8.785449, risk: -62.552650, weight: 0.5000
+WR2: Julian Edelman IR, pts: 9.195607, risk: -62.552650, weight: 0.5000
+WR2: N'Keal Harry O, pts: 8.785449, risk: -62.552650, weight: 0.5000
+TE: Matt LaCosse, pts: 6.677365, risk: -62.552650, weight: 0.9952
+DST: Kansas City Chiefs, pts: 9.553913, risk: -59.141574, weight: 1.0000
+K: Kai Forbath, pts: 12.336966, risk: -62.552650, weight: 1.0000
+Total Team Score: 121.937488, Total Team Risk: -747.220723
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: -1.904087, Weight 4: 0.400000, 
+
+QB: Drew Brees, pts: 39.755567, risk: -7.993750, weight: 0.3202
+QB: Russell Wilson, pts: 4.259087, risk: -18.575000, weight: 0.6798
+RB1: Chris Carson O, pts: 15.527632, risk: -18.575000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -18.575000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -18.575000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -18.575000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -18.575000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -18.575000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -18.575000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -18.575000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -18.575000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -18.575000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -18.575000, weight: 1.0000
+Total Team Score: 149.748307, Total Team Risk: -230.893750
+Weight 1: 1.200000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -22.499583, weight: 0.7049
+RB1: Aaron Jones, pts: 15.667006, risk: -22.499583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -22.499583, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -22.499583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -22.499583, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -22.499583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -22.499583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -22.499583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -22.499583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -22.499583, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: -22.499583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -22.499583, weight: 1.0000
+Total Team Score: 120.717691, Total Team Risk: -269.995000
+Weight 1: 1.200000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Drew Brees, pts: 39.755567, risk: -6.906250, weight: 0.3202
+QB: Russell Wilson, pts: 4.259087, risk: -16.125000, weight: 0.6798
+RB1: Chris Carson O, pts: 15.527632, risk: -16.125000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -16.125000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -16.125000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -16.125000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -16.125000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -16.125000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -16.125000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -16.125000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -16.125000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -16.125000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -16.125000, weight: 1.0000
+Total Team Score: 149.748307, Total Team Risk: -200.406250
+Weight 1: 1.100000, Weight 2: 0.450000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -19.113750, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -19.113750, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -19.113750, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -19.113750, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -19.113750, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -19.113750, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -19.113750, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -19.113750, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -19.113750, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -19.113750, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -15.995000, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -19.113750, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -19.113750, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -245.360000
+Weight 1: 1.100000, Weight 2: 0.450000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -15.575000, weight: 0.5062
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -11.162500, weight: 0.4938
+RB1: Chris Carson O, pts: 15.527632, risk: -15.575000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -15.575000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -15.575000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -15.575000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -15.575000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -15.575000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -15.575000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -15.575000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -15.575000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -15.575000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -15.575000, weight: 1.0000
+Total Team Score: 137.274094, Total Team Risk: -198.062500
+Weight 1: 1.100000, Weight 2: 0.350000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -20.799583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -20.799583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -20.799583, weight: 0.3058
+RB2: Aaron Jones, pts: 15.667006, risk: -20.799583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -20.799583, weight: 0.3058
+WR1: Allen Lazard IR, pts: 8.149557, risk: -20.799583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -20.799583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -20.799583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -20.799583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -20.799583, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: -20.799583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -20.799583, weight: 1.0000
+Total Team Score: 120.717691, Total Team Risk: -249.595000
+Weight 1: 1.100000, Weight 2: 0.350000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -16.375000, weight: 0.5062
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -10.662500, weight: 0.4938
+RB1: Chris Carson O, pts: 15.527632, risk: -16.375000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -16.375000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -16.375000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -16.375000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -16.375000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -16.375000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -16.375000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -16.375000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -16.375000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -16.375000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -16.375000, weight: 1.0000
+Total Team Score: 137.274094, Total Team Risk: -207.162500
+Weight 1: 1.100000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.500000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -18.699583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -18.699583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -18.699583, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -18.699583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -18.699583, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -18.699583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -18.699583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -18.699583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -18.699583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -18.699583, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -17.351667, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -18.699583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -18.699583, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -241.746667
+Weight 1: 1.100000, Weight 2: 0.350000, Weight 3: 0.100000, Weight 4: 0.500000, 
+
+QB: Baker Mayfield, pts: 16.418085, risk: -235.139635, weight: 1.0000
+RB1: Kareem Hunt, pts: 22.213356, risk: -235.139635, weight: 0.4993
+RB1: Nick Chubb IR, pts: 14.686591, risk: -235.139635, weight: 0.5007
+RB2: Kareem Hunt, pts: 22.213356, risk: -235.139635, weight: 0.5007
+RB2: Nick Chubb IR, pts: 14.686591, risk: -235.139635, weight: 0.4993
+DST: Cleveland Browns, pts: 4.603150, risk: -235.139635, weight: 1.0000
+K: Austin Seibert, pts: 8.430466, risk: -235.139635, weight: 1.0000
+Total Team Score: 103.251593, Total Team Risk: -1645.977443
+Weight 1: 5.025206, Weight 2: 6.379293, Weight 3: 2.121119, Weight 4: 6.429293, 
+
+QB: Ryan Fitzpatrick, pts: 32.961424, risk: -325.000443, weight: 0.8705
+RB1: De'Lance Turner, pts: 0.276520, risk: -325.000443, weight: 0.5000
+RB1: Myles Gaskin IR, pts: 10.811304, risk: -325.000443, weight: 0.5000
+RB2: De'Lance Turner, pts: 0.276520, risk: -325.000443, weight: 0.5000
+RB2: Myles Gaskin IR, pts: 10.811304, risk: -325.000443, weight: 0.5000
+WR1: Allen Hurns, pts: 7.933852, risk: -325.000443, weight: 0.5000
+WR1: Isaiah Ford, pts: 11.106419, risk: -325.000443, weight: 0.5000
+WR2: Allen Hurns, pts: 7.933852, risk: -325.000443, weight: 0.5000
+WR2: Isaiah Ford, pts: 11.106419, risk: -325.000443, weight: 0.5000
+TE: Durham Smythe Q, pts: 2.491730, risk: -325.000443, weight: 1.0000
+DST: Miami Dolphins, pts: 3.554438, risk: -325.000443, weight: 1.0000
+K: Jason Sanders, pts: 14.916668, risk: -325.000443, weight: 1.0000
+Total Team Score: 114.180450, Total Team Risk: -3900.005322
+Weight 1: 5.025206, Weight 2: 6.379293, Weight 3: 2.121119, Weight 4: 6.429293, 
+
+QB: Drew Brees, pts: 39.755567, risk: -6.906250, weight: 0.3202
+QB: Russell Wilson, pts: 4.259087, risk: -16.125000, weight: 0.6798
+RB1: Chris Carson O, pts: 15.527632, risk: -16.125000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -16.125000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -16.125000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -16.125000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -16.125000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -16.125000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -16.125000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -16.125000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -16.125000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -16.125000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -16.125000, weight: 1.0000
+Total Team Score: 149.748307, Total Team Risk: -200.406250
+Weight 1: 1.100000, Weight 2: 0.450000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -19.113750, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -19.113750, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -19.113750, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -19.113750, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -19.113750, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -19.113750, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -19.113750, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -19.113750, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -19.113750, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -19.113750, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -15.995000, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -19.113750, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -19.113750, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -245.360000
+Weight 1: 1.100000, Weight 2: 0.450000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -13.675000, weight: 0.5062
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -10.012500, weight: 0.4938
+RB1: Chris Carson O, pts: 15.527632, risk: -13.675000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -13.675000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -13.675000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -13.675000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -13.675000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -13.675000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -13.675000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -13.675000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -13.675000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -13.675000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -13.675000, weight: 1.0000
+Total Team Score: 137.274094, Total Team Risk: -174.112500
+Weight 1: 1.000000, Weight 2: 0.550000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -15.727917, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -15.727917, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -15.727917, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -15.727917, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -15.727917, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -15.727917, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -15.727917, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -15.727917, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -15.727917, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -15.727917, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -13.138333, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -15.727917, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -15.727917, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -201.873333
+Weight 1: 1.000000, Weight 2: 0.550000, Weight 3: 0.100000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -13.125000, weight: 1.0000
+RB1: Chris Carson O, pts: 15.527632, risk: -13.125000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -13.125000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -13.125000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -13.125000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -13.125000, weight: 0.5000
+WR1: Davante Adams, pts: 20.899804, risk: -11.845000, weight: 0.3946
+WR2: DK Metcalf, pts: 9.034129, risk: -13.125000, weight: 0.5000
+WR2: Davante Adams, pts: 20.899804, risk: -11.845000, weight: 0.3945
+TE: Jacob Hollister, pts: 9.078115, risk: -13.125000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -13.125000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -13.125000, weight: 1.0000
+Total Team Score: 138.804065, Total Team Risk: -154.940000
+Weight 1: 1.000000, Weight 2: 0.450000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -17.413750, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -17.413750, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -17.413750, weight: 0.3058
+RB2: Aaron Jones, pts: 15.667006, risk: -17.413750, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -17.413750, weight: 0.3058
+WR1: Allen Lazard IR, pts: 8.149557, risk: -17.413750, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -17.413750, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -17.413750, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -17.413750, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -17.413750, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: -17.413750, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -17.413750, weight: 1.0000
+Total Team Score: 120.717691, Total Team Risk: -208.965000
+Weight 1: 1.000000, Weight 2: 0.450000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Josh Allen, pts: 17.465334, risk: -12.037500, weight: 0.8607
+RB1: Chris Carson O, pts: 15.527632, risk: -13.925000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -13.925000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -13.925000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -13.925000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -13.925000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -13.925000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -13.925000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -13.925000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -13.925000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -13.925000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -13.925000, weight: 1.0000
+Total Team Score: 123.198988, Total Team Risk: -165.212500
+Weight 1: 1.000000, Weight 2: 0.450000, Weight 3: 0.100000, Weight 4: 0.500000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -15.313750, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -15.313750, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -15.313750, weight: 0.5000
+RB2: Aaron Jones, pts: 15.667006, risk: -15.313750, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -15.313750, weight: 0.5000
+WR1: Allen Lazard IR, pts: 8.149557, risk: -15.313750, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -15.313750, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -15.313750, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -15.313750, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -15.313750, weight: 0.4301
+TE: Travis Kelce, pts: 19.556577, risk: -14.495000, weight: 0.5699
+DST: Green Bay Packers, pts: 9.505330, risk: -15.313750, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -15.313750, weight: 1.0000
+Total Team Score: 140.274268, Total Team Risk: -198.260000
+Weight 1: 1.000000, Weight 2: 0.450000, Weight 3: 0.100000, Weight 4: 0.500000, 
+
+QB: Baker Mayfield, pts: 16.418085, risk: -358.670191, weight: 1.0000
+RB1: Kareem Hunt, pts: 22.213356, risk: -358.670191, weight: 0.5000
+RB1: Nick Chubb IR, pts: 14.686591, risk: -358.670191, weight: 0.5000
+RB2: Kareem Hunt, pts: 22.213356, risk: -358.670191, weight: 0.5000
+RB2: Nick Chubb IR, pts: 14.686591, risk: -358.670191, weight: 0.5000
+TE: Ricky Seals-Jones, pts: 5.815341, risk: -358.670191, weight: 0.3275
+DST: Cleveland Browns, pts: 4.603150, risk: -358.670191, weight: 1.0000
+K: Austin Seibert, pts: 8.430466, risk: -358.670191, weight: 1.0000
+Total Team Score: 109.066934, Total Team Risk: -2869.361525
+Weight 1: 8.665902, Weight 2: 10.019989, Weight 3: 3.757729, Weight 4: 10.069989, 
+
+QB: Ryan Fitzpatrick, pts: 32.961424, risk: -504.568748, weight: 0.8705
+RB1: De'Lance Turner, pts: 0.276520, risk: -504.568748, weight: 0.5000
+RB1: Myles Gaskin IR, pts: 10.811304, risk: -504.568748, weight: 0.5000
+RB2: De'Lance Turner, pts: 0.276520, risk: -504.568748, weight: 0.5000
+RB2: Myles Gaskin IR, pts: 10.811304, risk: -504.568748, weight: 0.5000
+WR1: Allen Hurns, pts: 7.933852, risk: -504.568748, weight: 0.5000
+WR1: Isaiah Ford, pts: 11.106419, risk: -504.568748, weight: 0.5000
+WR2: Allen Hurns, pts: 7.933852, risk: -504.568748, weight: 0.5000
+WR2: Isaiah Ford, pts: 11.106419, risk: -504.568748, weight: 0.5000
+TE: Durham Smythe Q, pts: 2.491730, risk: -504.568748, weight: 1.0000
+DST: Miami Dolphins, pts: 3.554438, risk: -504.568748, weight: 1.0000
+K: Jason Sanders, pts: 14.916668, risk: -504.568748, weight: 1.0000
+Total Team Score: 114.180450, Total Team Risk: -6054.824974
+Weight 1: 8.665902, Weight 2: 10.019989, Weight 3: 3.757729, Weight 4: 10.069989, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -15.575000, weight: 0.5062
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -11.162500, weight: 0.4938
+RB1: Chris Carson O, pts: 15.527632, risk: -15.575000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -15.575000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -15.575000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -15.575000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -15.575000, weight: 0.5000
+WR1: Tyler Lockett, pts: 6.494142, risk: -15.575000, weight: 0.5000
+WR2: DK Metcalf, pts: 9.034129, risk: -15.575000, weight: 0.5000
+WR2: Tyler Lockett, pts: 6.494142, risk: -15.575000, weight: 0.5000
+TE: Jacob Hollister, pts: 9.078115, risk: -15.575000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -15.575000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -15.575000, weight: 1.0000
+Total Team Score: 137.274094, Total Team Risk: -198.062500
+Weight 1: 1.100000, Weight 2: 0.350000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -20.799583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -20.799583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -20.799583, weight: 0.3058
+RB2: Aaron Jones, pts: 15.667006, risk: -20.799583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -20.799583, weight: 0.3058
+WR1: Allen Lazard IR, pts: 8.149557, risk: -20.799583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -20.799583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -20.799583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -20.799583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -20.799583, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: -20.799583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -20.799583, weight: 1.0000
+Total Team Score: 120.717691, Total Team Risk: -249.595000
+Weight 1: 1.100000, Weight 2: 0.350000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -13.125000, weight: 1.0000
+RB1: Chris Carson O, pts: 15.527632, risk: -13.125000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -13.125000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -13.125000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -13.125000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -13.125000, weight: 0.5000
+WR1: Davante Adams, pts: 20.899804, risk: -11.845000, weight: 0.3946
+WR2: DK Metcalf, pts: 9.034129, risk: -13.125000, weight: 0.5000
+WR2: Davante Adams, pts: 20.899804, risk: -11.845000, weight: 0.3945
+TE: Jacob Hollister, pts: 9.078115, risk: -13.125000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -13.125000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -13.125000, weight: 1.0000
+Total Team Score: 138.804065, Total Team Risk: -154.940000
+Weight 1: 1.000000, Weight 2: 0.450000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -17.413750, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -17.413750, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -17.413750, weight: 0.3058
+RB2: Aaron Jones, pts: 15.667006, risk: -17.413750, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -17.413750, weight: 0.3058
+WR1: Allen Lazard IR, pts: 8.149557, risk: -17.413750, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -17.413750, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -17.413750, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -17.413750, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -17.413750, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: -17.413750, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -17.413750, weight: 1.0000
+Total Team Score: 120.717691, Total Team Risk: -208.965000
+Weight 1: 1.000000, Weight 2: 0.450000, Weight 3: 0.200000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 6.896952, risk: -13.168333, weight: 0.5949
+QB: Ryan Fitzpatrick, pts: 27.281353, risk: -12.062500, weight: 0.4051
+RB1: Aaron Jones, pts: 8.650935, risk: -13.168333, weight: 0.5001
+RB1: Chris Carson O, pts: 15.527632, risk: -12.575000, weight: 0.4999
+RB2: Aaron Jones, pts: 8.650935, risk: -13.168333, weight: 0.4999
+RB2: Chris Carson O, pts: 15.527632, risk: -12.575000, weight: 0.5001
+WR1: Allen Lazard IR, pts: 7.332140, risk: -13.168333, weight: 0.5000
+WR1: Davante Adams, pts: 20.899804, risk: -13.168333, weight: 0.5000
+WR2: Allen Lazard IR, pts: 7.332140, risk: -13.168333, weight: 0.5000
+WR2: Davante Adams, pts: 20.899804, risk: -13.168333, weight: 0.5000
+TE: Robert Tonyan, pts: 3.450708, risk: -13.168333, weight: 1.0000
+DST: Green Bay Packers, pts: 7.719599, risk: -13.168333, weight: 1.0000
+K: Mason Crosby, pts: 1.265290, risk: -13.168333, weight: 1.0000
+Total Team Score: 151.434925, Total Team Risk: -168.895833
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.300000, Weight 4: 0.400000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -19.099583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -19.099583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -19.099583, weight: 0.3057
+RB2: Aaron Jones, pts: 15.667006, risk: -19.099583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -19.099583, weight: 0.3058
+WR1: Allen Lazard IR, pts: 8.149557, risk: -19.099583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -19.099583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -19.099583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -19.099583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -19.099583, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: -19.099583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -19.099583, weight: 1.0000
+Total Team Score: 120.717691, Total Team Risk: -229.195000
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.300000, Weight 4: 0.400000, 
+
+QB: Russell Wilson, pts: 4.259087, risk: -13.375000, weight: 1.0000
+RB1: Chris Carson O, pts: 15.527632, risk: -13.375000, weight: 0.5000
+RB1: Rashaad Penny PUP, pts: 10.304115, risk: -13.375000, weight: 0.5000
+RB2: Chris Carson O, pts: 15.527632, risk: -13.375000, weight: 0.5000
+RB2: Rashaad Penny PUP, pts: 10.304115, risk: -13.375000, weight: 0.5000
+WR1: DK Metcalf, pts: 9.034129, risk: -13.375000, weight: 0.5000
+WR1: Davante Adams, pts: 20.899804, risk: -12.668333, weight: 0.3945
+WR2: DK Metcalf, pts: 9.034129, risk: -13.375000, weight: 0.5000
+WR2: Davante Adams, pts: 20.899804, risk: -12.668333, weight: 0.3946
+TE: Jacob Hollister, pts: 9.078115, risk: -13.375000, weight: 1.0000
+DST: Seattle Seahawks, pts: 8.614388, risk: -13.375000, weight: 1.0000
+K: Jason Myers, pts: 5.321117, risk: -13.375000, weight: 1.0000
+Total Team Score: 138.804065, Total Team Risk: -159.086667
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.200000, Weight 4: 0.500000, 
+
+QB: Aaron Rodgers, pts: 4.110129, risk: -16.999583, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: -16.999583, weight: 0.5000
+RB1: Jamaal Williams, pts: 1.608006, risk: -16.999583, weight: 0.3058
+RB2: Aaron Jones, pts: 15.667006, risk: -16.999583, weight: 0.5000
+RB2: Jamaal Williams, pts: 1.608006, risk: -16.999583, weight: 0.3057
+WR1: Allen Lazard IR, pts: 8.149557, risk: -16.999583, weight: 0.5000
+WR1: Davante Adams, pts: 25.130124, risk: -16.999583, weight: 0.5000
+WR2: Allen Lazard IR, pts: 8.149557, risk: -16.999583, weight: 0.5000
+WR2: Davante Adams, pts: 25.130124, risk: -16.999583, weight: 0.5000
+TE: Robert Tonyan, pts: 2.294637, risk: -16.999583, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: -16.999583, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: -16.999583, weight: 1.0000
+Total Team Score: 120.717691, Total Team Risk: -203.995000
+Weight 1: 1.000000, Weight 2: 0.350000, Weight 3: 0.200000, Weight 4: 0.500000, 
+
+QB: Baker Mayfield, pts: 16.418085, risk: -427.714639, weight: 1.0000
+RB1: Kareem Hunt, pts: 22.213356, risk: -427.714639, weight: 0.5000
+RB1: Nick Chubb IR, pts: 14.686591, risk: -427.714639, weight: 0.5000
+RB2: Kareem Hunt, pts: 22.213356, risk: -427.714639, weight: 0.5000
+RB2: Nick Chubb IR, pts: 14.686591, risk: -427.714639, weight: 0.5000
+DST: Cleveland Browns, pts: 4.603150, risk: -427.714639, weight: 1.0000
+K: Austin Seibert, pts: 8.430466, risk: -427.714639, weight: 1.0000
+Total Team Score: 103.251593, Total Team Risk: -2994.002473
+Weight 1: 10.302511, Weight 2: 11.656598, Weight 3: 5.394338, Weight 4: 11.706598, 
+
+QB: Ryan Fitzpatrick, pts: 32.961424, risk: -614.119273, weight: 0.8705
+RB1: De'Lance Turner, pts: 0.276520, risk: -614.119273, weight: 0.5000
+RB1: Myles Gaskin IR, pts: 10.811304, risk: -614.119273, weight: 0.5000
+RB2: De'Lance Turner, pts: 0.276520, risk: -614.119273, weight: 0.5000
+RB2: Myles Gaskin IR, pts: 10.811304, risk: -614.119273, weight: 0.5000
+WR1: Allen Hurns, pts: 7.933852, risk: -614.119273, weight: 0.5000
+WR1: Isaiah Ford, pts: 11.106419, risk: -614.119273, weight: 0.5000
+WR2: Allen Hurns, pts: 7.933852, risk: -614.119273, weight: 0.5000
+WR2: Isaiah Ford, pts: 11.106419, risk: -614.119273, weight: 0.5000
+TE: Durham Smythe Q, pts: 2.491730, risk: -614.119273, weight: 1.0000
+DST: Miami Dolphins, pts: 3.554438, risk: -614.119273, weight: 1.0000
+K: Jason Sanders, pts: 14.916668, risk: -614.119273, weight: 1.0000
+Total Team Score: 114.180450, Total Team Risk: -7369.431270
+Weight 1: 10.302511, Weight 2: 11.656598, Weight 3: 5.394338, Weight 4: 11.706598, 
 
