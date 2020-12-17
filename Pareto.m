@@ -1,10 +1,10 @@
 clc; clear all; close all
 
-addpath( "Fucntion/" );
+addpath( "Function/" );
 
 exVal = @ExpectedPts_RR;
 
-tmSel = @teamSelector_v2;
+tmSel = @TS_MultiOpt_Int;
 
 %%
 % Working Parameters
@@ -14,9 +14,9 @@ des_pts = 80;
 
 wk = 16;
 
-stp = 0.1;
+stp = 0.05;
 rsk_wght = 0:stp:1;
-scr_wght = 1;
+scr_wght = 1 - rsk_wght;
 des_rsk = 15;
 
 %%
@@ -82,13 +82,13 @@ for i = 1:length( Player )
 end
 
 %%
-for j = rsk_wght
+for j = 1:length(rsk_wght)
     T = table( Player, ExpectedPoints, risk, Week, Position );
 
     [ QB, RB, WR, TE, DST, K ] = GeneratePositions( T );
     [ A, r ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K );
 
-    [ x ] = tmSel( A, r, des_pts, j, scr_wght, des_rsk );
+    [ x ] = tmSel( A, r, des_pts, rsk_wght( j ), scr_wght( j ), des_rsk );
 
     [ row, col ] = find( x > 0.3 );
 
@@ -113,16 +113,27 @@ for j = rsk_wght
         tot_risk = tot_risk + DB{ picks( p, 2 ), riskInd };
     end
 
-    pareto( :, find( rsk_wght == j, 1, 'first' ) ) = [ scr_wght, j, tot_score, tot_risk ]';
+    pareto( :, j ) = [ scr_wght( j ), rsk_wght( j ), tot_score, tot_risk ]';
     
-    progress_bar( find( rsk_wght == j, 1, 'first' ), length( rsk_wght ), 0 );
+    progress_bar( j, length( rsk_wght ), 0 );
 end
 
 %%
-plot( pareto( 2, : ), pareto( 3, : ) );
+subplot( 2, 1, 1 )
+plot( pareto( 3, : ), pareto( 4, : ), 'o-' );
 xlabel( '\lambda' );
-ylabel( 'Expected points' );
-title( 'Fantasy Football Pareto' );
+% ylabel( 'Expected points' );
+title( 'Expected Points' );
 
-axis( [ min( rsk_wght ) * 0.9, max( rsk_wght ) * 1.1 0 max( pareto( 3, : ) ) * 1.1 ] );
+% axis( [ min( rsk_wght ) * 0.9, max( rsk_wght ) * 1.1 0 max( pareto( 3, : ) ) * 1.1 ] );
+
+hold on
+    subplot( 2, 1, 2 )
+    plot( pareto( 2, : ), pareto( 4, : ) );
+    title( 'Assigned Risk' );
+    
+%     axis( [ min( rsk_wght ) * 0.9, max( rsk_wght ) * 1.1, 0, max( pareto( 4, : ) ) * 1.1 ] );
+hold off
+
+
 

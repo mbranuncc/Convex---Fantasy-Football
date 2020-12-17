@@ -1,4 +1,4 @@
-function [ ox ] = teamSelector_v2( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
+function [ ox ] = TS_MultiOpt_Float( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
 
 % non-integer checker
 
@@ -13,7 +13,7 @@ r = b;
 % des_rsk = 15;
 
 cvx_begin quiet
-    cvx_solver Mosek
+%     cvx_solver Mosek
     cvx_precision high
     
     variable x( m, n );
@@ -25,7 +25,7 @@ cvx_begin quiet
 %         HadamardProdSum( r, x ) <= des_rsk;
         x >= 0.0;
         x <= 1.0;
-        sum( sum( x ) ) <= m;
+%         sum( sum( x ) ) <= m;
         
         for i = 1:m
             trace( diag( x( i, : ) ) ) <= 1.0;

@@ -8,8 +8,8 @@ exVal = @ExpectedPts_RR;
 % exVal = @ExpectedPts_LG;
 % exVal = @ExpectedPts_LR;
 
-tmSel = @teamSelector_v2; % use this one if Mosek is not installed
-% tmSel = @teamSelector; % <- Requries Mosek
+tmSel = @TS_MultiOpt_Int; % use this one if Mosek is not installed
+% tmSel = @TS_UniOpt_Int; % <- Requries Mosek
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -27,6 +27,7 @@ des_pts = 80;
 
 dataSets = [ 1, 15;
             16, 17 ];
+
 wk = dataSets( 2, 1 );
 
 gradVel = .001;

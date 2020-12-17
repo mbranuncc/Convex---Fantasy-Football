@@ -1,4 +1,4 @@
-function [ ox ] = teamSelector( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
+function [ ox ] = TS_UniOpt_Int( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
 
 fprintf("Starting Team Optimization...");
 
