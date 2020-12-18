@@ -1,10 +1,13 @@
 clc; clear all; close all
 
-addpath( "Function/" );
+addpath( "Functions/" );
+addpath( "Functions/export_fig" );
 
 exVal = @ExpectedPts_RR;
 
-tmSel = @TS_MultiOpt_Int;
+tmSelVec = { @TS_MultiOpt_Int, @TS_MultiOpt_Float, @TS_UniOpt_Int };
+tmSelName = { "TS\_MultiOpt\_Int", "TS\_MultiOpt\_Float", "TS\_UniOpt\_Int" };
+times = zeros( length( tmSelVec ), 1 );
 
 %%
 % Working Parameters
@@ -25,7 +28,7 @@ des_rsk = 15;
 InjuryDataGenerator;
 load( 'Injury.mat' );
 
-[ wks, all ] = generateDataSet( "FantasyDatacom_WkByWk.xlsm", "Data-2019RegSeason", 6268, 16 );
+[ wks, all ] = generateDataSet( "FantasyDatacom_WkByWk.xlsm", "Data-2019RegSeason", 6268, 17 );
 
 train = wks{ 1 };
 for i = 2:wk-1
@@ -39,7 +42,7 @@ TeamRankingsGenerator;
 load( 'TeamRankings.mat' );
 
 
-currentWeights = [1, 0.35, -1.9041, 0.4 ];
+currentWeights = [0.301, 0.483, .419, 0.1866 ];
 Player = unique( train{ 1:end, getHeaderInd( train, 'Name' ) } );
 pNum = length( Player );
 
@@ -58,7 +61,7 @@ for i = 1:length( Player )
    % get data from the player's opponent
    oppTeam = playerTeam{ 1, getHeaderInd( playerTeam, strcat( "x", int2str( wk ) ) ) };
    if( strcmp( oppTeam, "BYE" ) )
-       risk( i ) = 1000;
+       risk( i ) = 100;
        continue;
    end
    oppTeam = getTeamData( TeamRankings, oppTeam );
@@ -78,62 +81,95 @@ for i = 1:length( Player )
    Week( i ) = wk;
    Position( i ) = cellstr( getPlayerPosition( train, Player( i ) ) );
 
-   progress_bar( i, pNum, 0 );
+   progress_bar( i, pNum, 0, 0 );
 end
 
 %%
-for j = 1:length(rsk_wght)
-    T = table( Player, ExpectedPoints, risk, Week, Position );
 
-    [ QB, RB, WR, TE, DST, K ] = GeneratePositions( T );
-    [ A, r ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K );
+for z = 1:length( tmSelVec )
+    tmSel = tmSelVec{ z };
+    tic;
+    for j = 1:length(rsk_wght)
+        T = table( Player, ExpectedPoints, risk, Week, Position );
 
-    [ x ] = tmSel( A, r, des_pts, rsk_wght( j ), scr_wght( j ), des_rsk );
+        [ QB, RB, WR, TE, DST, K ] = GeneratePositions( T );
+        [ A, r ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K );
 
-    [ row, col ] = find( x > 0.3 );
+        r = mNormalize( r, [ 0 1 ] );
+        
+        playerInd = getHeaderInd( QB, 'Player' );
+        ptsInd = getHeaderInd( QB, 'ExpectedPoints' );
+        riskInd = getHeaderInd( QB, 'risk' );
+        
+        % plug normalized values back into tables
+        QB{ :, riskInd } = r( 1, 1:length( QB{ :, riskInd } ) )';
+        RB{ :, riskInd } = r( 2, 1:length( RB{ :, riskInd } ) )';
+        WR{ :, riskInd } = r( 4, 1:length( WR{ :, riskInd } ) )';
+        TE{ :, riskInd } = r( 6, 1:length( TE{ :, riskInd } ) )';
+        DST{ :, riskInd } = r( 7, 1:length( DST{ :, riskInd } ) )';
+        K{ :, riskInd } = r( 8, 1:length( K{ :, riskInd } ) )';
 
-    picks = [ row, col ];
-    picks = sortrows( picks, 1 );
+        [ x ] = tmSel( A, r, des_pts, rsk_wght( j ), scr_wght( j ), des_rsk );
 
-    playerInd = getHeaderInd( QB, 'Player' );
-    ptsInd = getHeaderInd( QB, 'ExpectedPoints' );
-    riskInd = getHeaderInd( QB, 'risk' );                              
+        [ row, col ] = find( x > 0.3 );
 
-    posNames = [ "QB", "RB1", "RB2", "WR1", "WR2", "TE", "DST", "K" ];
-    posDBs = { QB; RB; RB; WR; WR; TE; DST; K };
+        picks = [ row, col ];
+        picks = sortrows( picks, 1 );
 
-    tot_score = 0.0;
-    tot_risk = 0.0;
+%         playerInd = getHeaderInd( QB, 'Player' );
+%         ptsInd = getHeaderInd( QB, 'ExpectedPoints' );
+%         riskInd = getHeaderInd( QB, 'risk' );                              
 
-    for p = 1:length( row )
-        DB = posDBs{ picks( p, 1 ) };
-        tmp = full( x );
+        posNames = [ "QB", "RB1", "RB2", "WR1", "WR2", "TE", "DST", "K" ];
+        posDBs = { QB; RB; RB; WR; WR; TE; DST; K };
 
-        tot_score = tot_score + DB{ picks( p, 2 ), ptsInd };
-        tot_risk = tot_risk + DB{ picks( p, 2 ), riskInd };
+        tot_score = 0.0;
+        tot_risk = 0.0;
+
+        for p = 1:length( row )
+            DB = posDBs{ picks( p, 1 ) };
+            tmp = full( x );
+            
+            
+            if( picks( p, 2 ) <= size( DB, 1 ) )
+                tot_score = tot_score + DB{ picks( p, 2 ), ptsInd };
+                tot_risk = tot_risk + DB{ picks( p, 2 ), riskInd };
+            end
+        end
+
+        pareto( :, j ) = [ scr_wght( j ), rsk_wght( j ), tot_score, tot_risk ]';
+
+        progress_bar( j, length( rsk_wght ), z, length( tmSelVec ) );
     end
-
-    pareto( :, j ) = [ scr_wght( j ), rsk_wght( j ), tot_score, tot_risk ]';
+    tme = toc;
+    times( z ) = tme;
+    %%
+    figure;
+%     subplot( 2, 1, 1 )
+    semilogx( pareto( 3, 1:end-1 ), pareto( 4, 1:end-1 ), 'o-' );
+    xlabel( 'Expected Points' );
+    ylabel( 'Risk' );
+    % ylabel( 'Expected points' );
+    title( tmSelName{ z } );
     
-    progress_bar( j, length( rsk_wght ), 0 );
+    export_fig( strcat( "Media/", strrep( cellstr( tmSelName{ z } ), "\", "" ), ".png" ) );
+
+    % axis( [ min( rsk_wght ) * 0.9, max( rsk_wght ) * 1.1 0 max( pareto( 3, : ) ) * 1.1 ] );
+
+%     hold on
+%         subplot( 2, 1, 2 )
+%         plot( pareto( 2, : ), pareto( 4, : ) );
+%         title( 'Assigned Risk' );
+% 
+%     %     axis( [ min( rsk_wght ) * 0.9, max( rsk_wght ) * 1.1, 0, max( pareto( 4, : ) ) * 1.1 ] );
+%     hold off
+    
+    fprintf( "%s run time: %3.3f\n", tmSelName{ z }, tme );
 end
 
 %%
-subplot( 2, 1, 1 )
-plot( pareto( 3, : ), pareto( 4, : ), 'o-' );
-xlabel( '\lambda' );
-% ylabel( 'Expected points' );
-title( 'Expected Points' );
-
-% axis( [ min( rsk_wght ) * 0.9, max( rsk_wght ) * 1.1 0 max( pareto( 3, : ) ) * 1.1 ] );
-
-hold on
-    subplot( 2, 1, 2 )
-    plot( pareto( 2, : ), pareto( 4, : ) );
-    title( 'Assigned Risk' );
-    
-%     axis( [ min( rsk_wght ) * 0.9, max( rsk_wght ) * 1.1, 0, max( pareto( 4, : ) ) * 1.1 ] );
-hold off
-
-
-
+figure;
+v = diag( times );
+bar( v );
+legend( tmSelName );
+export_fig( "Media/Run Times.png" );

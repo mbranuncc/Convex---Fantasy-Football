@@ -8,8 +8,8 @@ exVal = @ExpectedPts_RR;
 % exVal = @ExpectedPts_LG;
 % exVal = @ExpectedPts_LR;
 
-% tmSel = @TS_MultiOpt_Float;
-tmSel = @TS_MultiOpt_Int; % use this one if Mosek is not installed
+tmSel = @TS_MultiOpt_Float;
+% tmSel = @TS_MultiOpt_Int; % use this one if Mosek is not installed
 % tmSel = @TS_UniOpt_Int; % <- Requries Mosek
 
 % gradWeights = @updateWeights;
@@ -38,8 +38,8 @@ gradStep = .001;
 t = 0.001;
 endPt = 1;
 
-rsk_wght = 0.2;
-scr_wght = 0.8;
+rsk_wght = 0.1;
+scr_wght = 0.9;
 des_rsk = 15;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,7 +69,7 @@ gradHist = [];
 errHist = [];
 
 counter = 0;
-cutOff = 8 * ( numel( currentWeights ) + 1 );
+cutOff = 10 * ( numel( currentWeights ) + 1 );
 while( 1 )
     wk = dataSets( 2, 1 );
     
@@ -223,9 +223,9 @@ while( 1 )
     if( numel( gradient ) == 1 )
         tmp = zeros( length( currentWeights ), 1 );
         tmp( 1 ) = gradient;
-        gradHist = [ gradHist; [ tmp', t ] ];
+        gradHist = [ gradHist; tmp' ];
     else 
-        gradHist = [ gradHist; [ gradient', t ] ];
+        gradHist = [ gradHist; gradient' ];
     end
     
     
@@ -243,9 +243,7 @@ end
 %%
 plot( errHist, 'o-' );
 export_fig( sprintf( "Media/Descent_Path_A%2.2f_r%2.2f_a%1.6f.png", scr_wght, rsk_wght, alpha ) );
-save( sprintf( "Media/gradient_A%2.2f_r%2.2f_a%1.6f.mat", scr_wght, rsk_wght, alpha ), 'gradHist' );
-save( sprintf( "Media/errHist_A%2.2f_r%2.2f_a%1.6f.mat", scr_wght, rsk_wght, alpha ), 'errHist' );
-
+save( sprintf( 
 
 fclose( 'all' );
 

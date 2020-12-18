@@ -1,4 +1,4 @@
-function progress_bar( curr, maxV, tarArr )
+function progress_bar( curr, maxV, counter, upper )
 
 num_slots = 40;
 if( maxV < num_slots )
@@ -36,6 +36,6 @@ for i = 1:num_slots
         fprintf("-");
     end
 end
-fprintf("> %3.2f %%\n", ( curr / maxV ) * 100 );
+fprintf("> %3.2f %%, counter %d / %d\n", ( curr / maxV ) * 100, counter, upper );
 
 end

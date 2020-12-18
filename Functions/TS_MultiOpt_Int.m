@@ -1,4 +1,4 @@
-function [ ox ] = TS_MultiOpt_Int( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
+function [ ox, cvx_stat ] = TS_MultiOpt_Int( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
 
 % non-integer checker
 
@@ -14,7 +14,7 @@ r = b;
 
 cvx_begin quiet
     cvx_solver Mosek
-    cvx_precision high
+    cvx_precision low
     
     variable x( m, n ) integer;
     
@@ -26,6 +26,7 @@ cvx_begin quiet
         x >= 0.0;
         x <= 1.0;
         sum( sum( x ) ) <= m;
+        sum( sum( x ) ) >= m;
         
         for i = 1:m
             trace( diag( x( i, : ) ) ) <= 1.0;
@@ -39,6 +40,7 @@ cvx_end
 
 fprintf("%s\n", cvx_status );
 
+cvx_stat = cvx_status;
 ox = x;
 
 end

@@ -8,7 +8,7 @@ r = b;
 
 cvx_begin quiet
     cvx_solver Mosek
-    cvx_precision high
+    cvx_precision low
     
     variable x( m, n ) integer
     
