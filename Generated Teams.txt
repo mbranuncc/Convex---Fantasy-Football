@@ -1,546 +1,351 @@
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Alexander Mattison, pts: 1.080847, risk: 0.027208, weight: 1.0000
+QB: Devlin Hodges, pts: 9.174196, risk: 0.008374, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
 RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
 WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Jesper Horsted, pts: 5.617895, risk: 0.014060, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000105, Total Team Risk: 0.041268
-Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: 0.100000, Average Error: 3.470033
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Malcolm Brown, pts: 1.697456, risk: 0.016748, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Nick O'Leary, pts: 4.056888, risk: 0.000000, weight: 1.0000
-DST: Atlanta Falcons, pts: 12.477189, risk: 0.016946, weight: 1.0000
-K: Dustin Hopkins, pts: 9.491549, risk: 0.006904, weight: 1.0000
-Total Team Score: 80.001297, Total Team Risk: 0.040598
-Weight 1: 0.301000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: 0.100000, Average Error: 3.033584
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: DeAndre Carter, pts: 2.479343, risk: 0.010234, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Nick O'Leary, pts: 4.056888, risk: 0.000000, weight: 1.0000
-DST: Houston Texans, pts: 9.266108, risk: 0.010234, weight: 1.0000
-K: Ka'imi Fairbairn, pts: 5.755409, risk: 0.010234, weight: 1.0000
-Total Team Score: 80.003995, Total Team Risk: 0.030703
-Weight 1: 0.300000, Weight 2: 0.501000, Weight 3: 0.400000, Weight 4: 0.100000, Average Error: 3.956591
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Baker Mayfield, pts: 15.140252, risk: 0.023107, weight: 1.0000
-RB1: Chris Thompson, pts: 4.937266, risk: 0.006922, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: DeVante Parker, pts: 24.849230, risk: 0.000000, weight: 1.0000
-WR2: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-TE: Zach Gentry, pts: 0.505853, risk: 0.008390, weight: 1.0000
-DST: Jacksonville Jaguars, pts: 0.168452, risk: 0.015020, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.001415, Total Team Risk: 0.053438
-Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.401000, Weight 4: 0.100000, Average Error: 5.636525
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Pharoh Cooper, pts: 3.147512, risk: 0.024505, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.024505
-Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: 0.101000, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Benny Snell Jr., pts: 4.161466, risk: 0.031953, weight: 1.0000
-RB2: Josh Ferguson, pts: 0.325191, risk: 0.032792, weight: 1.0000
-WR1: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-WR2: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.003230, Total Team Risk: 0.064746
-Weight 1: 0.300000, Weight 2: 0.063552, Weight 3: 0.886558, Weight 4: 2.266492, Average Error: 4.836132
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: John Brown, pts: 11.194551, risk: 0.041065, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Chris Boswell, pts: 4.314631, risk: 0.015831, weight: 1.0000
-Total Team Score: 80.001597, Total Team Risk: 0.056896
-Weight 1: 0.300000, Weight 2: 0.369066, Weight 3: 0.545968, Weight 4: 0.749948, Average Error: 3.401842
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: John Brown, pts: 11.194551, risk: 0.041065, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Chris Boswell, pts: 4.314631, risk: 0.015831, weight: 1.0000
-Total Team Score: 80.001597, Total Team Risk: 0.056896
-Weight 1: 0.300000, Weight 2: 0.369066, Weight 3: 0.545968, Weight 4: 0.749948, Average Error: 3.401842
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Kyle Allen O, pts: 12.739011, risk: 0.024334, weight: 1.0000
-RB1: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-WR2: Darius Slayton, pts: 11.624748, risk: 0.045412, weight: 1.0000
-TE: Mike Gesicki, pts: 18.090486, risk: 0.000000, weight: 1.0000
-DST: Washington Football Team, pts: 3.607478, risk: 0.015090, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000067, Total Team Risk: 0.084836
-Weight 1: 0.301000, Weight 2: 0.369066, Weight 3: 0.545968, Weight 4: 0.749948, Average Error: 3.948021
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Josh Ferguson, pts: 0.325191, risk: 0.015102, weight: 1.0000
-RB2: Jalen Richard, pts: 6.468219, risk: 0.033080, weight: 1.0000
-WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Vance McDonald, pts: 0.183328, risk: 0.015838, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.001583, Total Team Risk: 0.064020
-Weight 1: 0.300000, Weight 2: 0.370066, Weight 3: 0.545968, Weight 4: 0.749948, Average Error: 3.206969
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-WR1: David Moore, pts: 3.141396, risk: 0.021501, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Jaeden Graham, pts: 3.233232, risk: 0.041748, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.001401, Total Team Risk: 0.063250
-Weight 1: 0.300000, Weight 2: 0.369066, Weight 3: 0.546968, Weight 4: 0.749948, Average Error: 4.048332
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Benny Snell Jr., pts: 4.161466, risk: 0.015840, weight: 1.0000
-WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-WR2: Kelvin Harmon, pts: 9.765184, risk: 0.015107, weight: 1.0000
-TE: Nick O'Leary, pts: 4.056888, risk: 0.000000, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 5.928633, risk: 0.015840, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000635, Total Team Risk: 0.046787
-Weight 1: 0.300000, Weight 2: 0.369066, Weight 3: 0.545968, Weight 4: 0.750948, Average Error: 4.413892
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-WR2: John Brown, pts: 11.194551, risk: 0.060596, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Chris Boswell, pts: 4.314631, risk: 0.022141, weight: 1.0000
-Total Team Score: 80.001597, Total Team Risk: 0.082736
-Weight 1: 0.300000, Weight 2: 0.915245, Weight 3: 0.351095, Weight 4: 1.396438, Average Error: 3.401842
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-WR2: John Brown, pts: 11.194551, risk: 0.060596, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Chris Boswell, pts: 4.314631, risk: 0.022141, weight: 1.0000
-Total Team Score: 80.001597, Total Team Risk: 0.082736
-Weight 1: 0.300000, Weight 2: 0.915245, Weight 3: 0.351095, Weight 4: 1.396438, Average Error: 3.401842
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.054353, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.054353
-Weight 1: 0.301000, Weight 2: 0.915245, Weight 3: 0.351095, Weight 4: 1.396438, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Josh Ferguson, pts: 0.325191, risk: 0.022937, weight: 1.0000
-RB2: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Johnny Holton, pts: 0.728272, risk: 0.022147, weight: 1.0000
+WR2: Kelvin Harmon, pts: 9.765184, risk: 0.006911, weight: 1.0000
 TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 5.928633, risk: 0.022147, weight: 1.0000
+DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
 K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.002227, Total Team Risk: 0.067232
-Weight 1: 0.300000, Weight 2: 0.916245, Weight 3: 0.351095, Weight 4: 1.396438, Average Error: 3.203048
+Total Team Score: 80.002636, Total Team Risk: 0.015284
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: 0.100000, Average Error: 6.403344
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Benny Snell Jr., pts: 4.161466, risk: 0.022156, weight: 1.0000
-RB2: Josh Ferguson, pts: 0.325191, risk: 0.022943, weight: 1.0000
-WR1: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
+QB: Devlin Hodges, pts: 9.174196, risk: 0.008364, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
+RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
+WR1: Kelvin Harmon, pts: 9.765184, risk: 0.006904, weight: 1.0000
 WR2: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.003230, Total Team Risk: 0.045099
-Weight 1: 0.300000, Weight 2: 0.915245, Weight 3: 0.352095, Weight 4: 1.396438, Average Error: 4.836132
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.054380, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.054380
-Weight 1: 0.300000, Weight 2: 0.915245, Weight 3: 0.351095, Weight 4: 1.397438, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-WR1: Tevin Jones, pts: 1.211726, risk: 0.022472, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Ben Braunecker, pts: 0.236243, risk: 0.049017, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 5.928633, risk: 0.022472, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000979, Total Team Risk: 0.093961
-Weight 1: 0.300000, Weight 2: -0.466827, Weight 3: 0.152301, Weight 4: 2.830727, Average Error: 3.026088
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-WR1: Tevin Jones, pts: 1.211726, risk: 0.022472, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Ben Braunecker, pts: 0.236243, risk: 0.049017, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 5.928633, risk: 0.022472, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000979, Total Team Risk: 0.093961
-Weight 1: 0.300000, Weight 2: -0.466827, Weight 3: 0.152301, Weight 4: 2.830727, Average Error: 3.026088
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Josh Ferguson, pts: 0.325191, risk: 0.028320, weight: 1.0000
-RB2: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Johnny Holton, pts: 0.728272, risk: 0.022463, weight: 1.0000
 TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 5.928633, risk: 0.022463, weight: 1.0000
+DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
 K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.002227, Total Team Risk: 0.073247
-Weight 1: 0.301000, Weight 2: -0.466827, Weight 3: 0.152301, Weight 4: 2.830727, Average Error: 3.203048
+Total Team Score: 80.002636, Total Team Risk: 0.015268
+Weight 1: 0.301000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: 0.100000, Average Error: 6.403344
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
+QB: Devlin Hodges, pts: 9.174196, risk: 0.008381, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
 RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.053204, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
+WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
+WR2: Kelvin Harmon, pts: 9.765184, risk: 0.006917, weight: 1.0000
+TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
 DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
 K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.053204
-Weight 1: 0.300000, Weight 2: -0.465827, Weight 3: 0.152301, Weight 4: 2.830727, Average Error: 2.019770
+Total Team Score: 80.002636, Total Team Risk: 0.015297
+Weight 1: 0.300000, Weight 2: 0.501000, Weight 3: 0.400000, Weight 4: 0.100000, Average Error: 6.403344
 
 
 Selected Team for Week 17 with cvx_status: Solved
 QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
+RB1: Josh Ferguson, pts: 0.325191, risk: 0.006922, weight: 1.0000
+RB2: Benny Snell Jr., pts: 4.161466, risk: 0.008390, weight: 1.0000
+WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
+WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
+TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
+DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
+K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.003230, Total Team Risk: 0.015312
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.401000, Weight 4: 0.100000, Average Error: 4.836132
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Devlin Hodges, pts: 9.174196, risk: 0.008383, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
 RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Pharoh Cooper, pts: 3.147512, risk: 0.053228, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
+WR1: Kelvin Harmon, pts: 9.765184, risk: 0.006922, weight: 1.0000
+WR2: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
+TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
 DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
 K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.053228
-Weight 1: 0.300000, Weight 2: -0.466827, Weight 3: 0.153301, Weight 4: 2.830727, Average Error: 2.019770
+Total Team Score: 80.002636, Total Team Risk: 0.015305
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: 0.101000, Average Error: 6.403344
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: Pharoh Cooper, pts: 3.147512, risk: 0.053208, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.053208
-Weight 1: 0.300000, Weight 2: -0.466827, Weight 3: 0.152301, Weight 4: 2.831727, Average Error: 2.019770
+QB: Lamar Jackson, pts: 29.855849, risk: 0.006889, weight: 1.0000
+RB1: Sony Michel IR, pts: 3.424680, risk: 0.000000, weight: 1.0000
+RB2: James White, pts: 11.938496, risk: 0.000000, weight: 1.0000
+WR1: Josh Gordon SUS, pts: 0.083641, risk: 0.000000, weight: 1.0000
+WR2: N'Keal Harry O, pts: 8.785449, risk: 0.000000, weight: 1.0000
+TE: Matt LaCosse, pts: 6.677365, risk: 0.000000, weight: 1.0000
+DST: Baltimore Ravens, pts: 6.963197, risk: 0.006889, weight: 1.0000
+K: Nick Folk Q, pts: 12.277757, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.006434, Total Team Risk: 0.013779
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: -1.467212, Average Error: 18.760829
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Josh Allen, pts: 17.320447, risk: 0.000000, weight: 1.0000
-RB1: Devin Singletary, pts: 13.920938, risk: 0.000000, weight: 1.0000
-RB2: Spencer Ware, pts: 4.893737, risk: 0.009187, weight: 1.0000
-WR1: C.J. Board, pts: 0.533924, risk: 0.027278, weight: 1.0000
-WR2: Cole Beasley, pts: 15.486535, risk: 0.000000, weight: 1.0000
-TE: Jonnu Smith, pts: 12.920957, risk: 0.038728, weight: 1.0000
-DST: Buffalo Bills, pts: 7.618004, risk: 0.000000, weight: 1.0000
-K: Stephen Hauschka, pts: 7.305990, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000531, Total Team Risk: 0.075193
-Weight 1: 0.300000, Weight 2: -0.289867, Weight 3: -0.854017, Weight 4: 1.824409, Average Error: 14.096438
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+RB2: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+WR1: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+WR2: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+TE: Ryan Griffin, pts: 0.940487, risk: 0.000000, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.002125, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.005506, Total Team Risk: 0.002125
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: -0.370164, Average Error: 6.238694
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.036300, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.036300
-Weight 1: 0.300000, Weight 2: -0.413739, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 2.019770
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+RB2: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+WR1: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+WR2: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+TE: Ryan Griffin, pts: 0.940487, risk: 0.000000, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.002125, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.005506, Total Team Risk: 0.002125
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: -0.370164, Average Error: 6.238694
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.036300, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.036300
-Weight 1: 0.300000, Weight 2: -0.413739, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 2.019770
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+RB2: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+WR1: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+WR2: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+TE: Ryan Griffin, pts: 0.940487, risk: 0.000000, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.002102, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.005506, Total Team Risk: 0.002102
+Weight 1: 0.301000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: -0.370164, Average Error: 6.238694
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Aaron Jones, pts: 15.667006, risk: 0.001116, weight: 1.0000
+RB2: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+WR1: Vyncint Smith D, pts: 6.453857, risk: 0.000000, weight: 1.0000
+WR2: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+TE: Johnny Mundt, pts: 1.277791, risk: 0.002141, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.002141, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.002868, Total Team Risk: 0.005397
+Weight 1: 0.300000, Weight 2: 0.501000, Weight 3: 0.400000, Weight 4: -0.370164, Average Error: 3.294301
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+RB2: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+WR1: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+WR2: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+TE: Ryan Griffin, pts: 0.940487, risk: 0.000000, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.002128, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.005506, Total Team Risk: 0.002128
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.401000, Weight 4: -0.370164, Average Error: 6.238694
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+RB2: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+WR1: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+WR2: Mike Williams, pts: 11.843857, risk: 0.002787, weight: 1.0000
+TE: Chris Herndon, pts: 0.011773, risk: 0.000000, weight: 1.0000
+DST: New York Jets, pts: 8.311447, risk: 0.000000, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.002069, Total Team Risk: 0.002787
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.400000, Weight 4: -0.369164, Average Error: 6.028120
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Tom Brady, pts: 9.371679, risk: 0.000000, weight: 1.0000
+RB1: Rex Burkhead, pts: 12.079230, risk: 0.000000, weight: 1.0000
+RB2: James White, pts: 11.938496, risk: 0.000000, weight: 1.0000
+WR1: N'Keal Harry O, pts: 8.785449, risk: 0.000000, weight: 1.0000
+WR2: Julian Edelman IR, pts: 9.195607, risk: 0.000000, weight: 1.0000
+TE: Jonnu Smith, pts: 12.920957, risk: 0.040340, weight: 1.0000
+DST: New Orleans Saints, pts: 3.375146, risk: 0.031255, weight: 1.0000
+K: Kai Forbath, pts: 12.336966, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.003531, Total Team Risk: 0.071595
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: -2.544393, Weight 4: -0.370164, Average Error: 8.015318
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Tom Brady, pts: 9.371679, risk: 0.000000, weight: 1.0000
+RB1: James White, pts: 11.938496, risk: 0.000000, weight: 1.0000
+RB2: Rex Burkhead, pts: 12.079230, risk: 0.000000, weight: 1.0000
+WR1: N'Keal Harry O, pts: 8.785449, risk: 0.000000, weight: 1.0000
+WR2: Julian Edelman IR, pts: 9.195607, risk: 0.000000, weight: 1.0000
+TE: Jonnu Smith, pts: 12.920957, risk: 0.014751, weight: 1.0000
+DST: New Orleans Saints, pts: 3.375146, risk: 0.009108, weight: 1.0000
+K: Kai Forbath, pts: 12.336966, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.003531, Total Team Risk: 0.023859
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: -0.483318, Weight 4: -0.370164, Average Error: 8.015318
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Aaron Rodgers, pts: 4.110129, risk: 0.000000, weight: 1.0000
+RB1: Le'Veon Bell, pts: 7.194175, risk: 0.000737, weight: 1.0000
+RB2: Aaron Jones, pts: 15.667006, risk: 0.000000, weight: 1.0000
+WR1: Jamison Crowder Q, pts: 12.838295, risk: 0.000737, weight: 1.0000
+WR2: Davante Adams, pts: 25.130124, risk: 0.000000, weight: 1.0000
+TE: Daniel Brown, pts: 1.858098, risk: 0.000737, weight: 1.0000
+DST: Green Bay Packers, pts: 9.505330, risk: 0.000000, weight: 1.0000
+K: Mason Crosby, pts: 3.698207, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.001365, Total Team Risk: 0.002210
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.135005, Weight 4: -0.370164, Average Error: 9.178596
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+RB2: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+WR1: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+WR2: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+TE: Ryan Griffin, pts: 0.940487, risk: 0.000000, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.001892, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.005506, Total Team Risk: 0.001892
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.320501, Weight 4: -0.370164, Average Error: 6.238694
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+RB2: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+WR1: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+WR2: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+TE: Ryan Griffin, pts: 0.940487, risk: 0.000000, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.001892, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.005506, Total Team Risk: 0.001892
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.320501, Weight 4: -0.370164, Average Error: 6.238694
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Bilal Powell, pts: 5.015764, risk: 0.000000, weight: 1.0000
+RB2: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+WR1: Davante Adams, pts: 25.130124, risk: 0.000514, weight: 1.0000
+WR2: Cooper Kupp, pts: 5.645721, risk: 0.001868, weight: 1.0000
+TE: Daniel Brown, pts: 1.858098, risk: 0.000000, weight: 1.0000
+DST: New York Jets, pts: 8.311447, risk: 0.000000, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.000893, Total Team Risk: 0.002382
+Weight 1: 0.301000, Weight 2: 0.500000, Weight 3: 0.320501, Weight 4: -0.370164, Average Error: 7.162845
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+RB2: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+WR1: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+WR2: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+TE: Ryan Griffin, pts: 0.940487, risk: 0.000000, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.001907, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.005506, Total Team Risk: 0.001907
+Weight 1: 0.300000, Weight 2: 0.501000, Weight 3: 0.320501, Weight 4: -0.370164, Average Error: 6.238694
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+RB2: Bilal Powell, pts: 5.015764, risk: 0.000000, weight: 1.0000
+WR1: Cooper Kupp, pts: 5.645721, risk: 0.001895, weight: 1.0000
+WR2: Davante Adams, pts: 25.130124, risk: 0.000556, weight: 1.0000
+TE: Daniel Brown, pts: 1.858098, risk: 0.000000, weight: 1.0000
+DST: New York Jets, pts: 8.311447, risk: 0.000000, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.000893, Total Team Risk: 0.002451
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.321501, Weight 4: -0.370164, Average Error: 7.162845
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Sam Darnold D, pts: 19.300379, risk: 0.000000, weight: 1.0000
+RB1: Ty Montgomery, pts: 3.859728, risk: 0.000000, weight: 1.0000
+RB2: Le'Veon Bell, pts: 7.194175, risk: 0.000000, weight: 1.0000
+WR1: Jamison Crowder Q, pts: 12.838295, risk: 0.000000, weight: 1.0000
+WR2: Robby Anderson, pts: 18.601079, risk: 0.000000, weight: 1.0000
+TE: Ryan Griffin, pts: 0.940487, risk: 0.000000, weight: 1.0000
+DST: Los Angeles Rams, pts: 6.391733, risk: 0.001891, weight: 1.0000
+K: Sam Ficken D, pts: 10.879631, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.005506, Total Team Risk: 0.001891
+Weight 1: 0.300000, Weight 2: 0.500000, Weight 3: 0.320501, Weight 4: -0.369164, Average Error: 6.238694
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Devlin Hodges, pts: 9.174196, risk: 0.017671, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
 RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Keelan Cole Sr., pts: 5.518341, risk: 0.033837, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Jordan Akins, pts: 0.116409, risk: 0.049973, weight: 1.0000
+WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
+WR2: Kelvin Harmon, pts: 9.765184, risk: 0.016454, weight: 1.0000
+TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
 DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
 K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000060, Total Team Risk: 0.083810
-Weight 1: 0.301000, Weight 2: -0.413739, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 5.283461
+Total Team Score: 80.002636, Total Team Risk: 0.034124
+Weight 1: 0.300000, Weight 2: 1.424151, Weight 3: 0.320501, Weight 4: 0.553987, Average Error: 6.403344
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
+QB: Devlin Hodges, pts: 9.174196, risk: 0.017671, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
 RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Pharoh Cooper, pts: 3.147512, risk: 0.036315, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
+WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
+WR2: Kelvin Harmon, pts: 9.765184, risk: 0.016454, weight: 1.0000
+TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
 DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
 K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.036315
-Weight 1: 0.300000, Weight 2: -0.412739, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 2.019770
+Total Team Score: 80.002636, Total Team Risk: 0.034124
+Weight 1: 0.300000, Weight 2: 1.424151, Weight 3: 0.320501, Weight 4: 0.553987, Average Error: 6.403344
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
+QB: Devlin Hodges, pts: 9.174196, risk: 0.017661, weight: 1.0000
 RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: Pharoh Cooper, pts: 3.147512, risk: 0.036340, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.036340
-Weight 1: 0.300000, Weight 2: -0.413739, Weight 3: -0.148594, Weight 4: 2.528832, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Alex Tanney, pts: 0.014453, risk: 0.060359, weight: 1.0000
-RB1: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
 RB2: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-TE: Zach Gentry, pts: 0.505853, risk: 0.015612, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000449, Total Team Risk: 0.075971
-Weight 1: 0.300000, Weight 2: -0.413739, Weight 3: -0.149594, Weight 4: 2.529832, Average Error: 7.317004
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Brett Hundley, pts: 2.516334, risk: 0.082290, weight: 1.0000
-RB1: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: James Washington, pts: 16.176248, risk: 0.035921, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Mike Gesicki, pts: 18.090486, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.000458, Total Team Risk: 0.118211
-Weight 1: 0.300000, Weight 2: 2.849951, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 7.790370
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.050790, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.050790
-Weight 1: 0.300000, Weight 2: 0.565368, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.050790, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.050790
-Weight 1: 0.300000, Weight 2: 0.565368, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Josh Ferguson, pts: 0.325191, risk: 0.027534, weight: 1.0000
-RB2: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-WR1: Johnny Holton, pts: 0.728272, risk: 0.021995, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
-DST: Pittsburgh Steelers, pts: 5.928633, risk: 0.021995, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.002227, Total Team Risk: 0.071524
-Weight 1: 0.301000, Weight 2: 0.565368, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 3.203048
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.050804, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.050804
-Weight 1: 0.300000, Weight 2: 0.566368, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Pharoh Cooper, pts: 3.147512, risk: 0.050828, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.050828
-Weight 1: 0.300000, Weight 2: 0.565368, Weight 3: -0.148594, Weight 4: 2.528832, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-WR1: Pharoh Cooper, pts: 3.147512, risk: 0.050808, weight: 1.0000
-WR2: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.050808
-Weight 1: 0.300000, Weight 2: 0.565368, Weight 3: -0.149594, Weight 4: 2.529832, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.067490, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.067490
-Weight 1: 0.300000, Weight 2: 1.748646, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
-RB2: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-WR1: Isaiah Ford, pts: 11.106419, risk: 0.000000, weight: 1.0000
-WR2: Pharoh Cooper, pts: 3.147512, risk: 0.067490, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
-DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.004553, Total Team Risk: 0.067490
-Weight 1: 0.300000, Weight 2: 1.748646, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 2.019770
-
-
-Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Benny Snell Jr., pts: 4.161466, risk: 0.029374, weight: 1.0000
-RB2: Josh Ferguson, pts: 0.325191, risk: 0.033515, weight: 1.0000
 WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-WR2: Albert Wilson, pts: 13.658461, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
+WR2: Kelvin Harmon, pts: 9.765184, risk: 0.016447, weight: 1.0000
+TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
 DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
 K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
-Total Team Score: 80.003230, Total Team Risk: 0.062889
-Weight 1: 0.301000, Weight 2: 1.748646, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 4.836132
+Total Team Score: 80.002636, Total Team Risk: 0.034109
+Weight 1: 0.301000, Weight 2: 1.424151, Weight 3: 0.320501, Weight 4: 0.553987, Average Error: 6.403344
 
 
 Selected Team for Week 17 with cvx_status: Solved
-QB: Ryan Fitzpatrick, pts: 32.961424, risk: 0.000000, weight: 1.0000
-RB1: Patrick Laird, pts: 11.549841, risk: 0.000000, weight: 1.0000
-RB2: Myles Gaskin IR, pts: 10.811304, risk: 0.000000, weight: 1.0000
-WR1: Tevin Jones, pts: 1.211726, risk: 0.029388, weight: 1.0000
+QB: Devlin Hodges, pts: 9.174196, risk: 0.017677, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
+RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
+WR1: Kelvin Harmon, pts: 9.765184, risk: 0.016459, weight: 1.0000
 WR2: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
-TE: Durham Smythe Q, pts: 2.491730, risk: 0.000000, weight: 1.0000
+TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
 DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
-K: Dustin Hopkins, pts: 9.491549, risk: 0.033526, weight: 1.0000
-Total Team Score: 80.005865, Total Team Risk: 0.062914
-Weight 1: 0.300000, Weight 2: 1.749646, Weight 3: -0.149594, Weight 4: 2.528832, Average Error: 4.249420
+K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.002636, Total Team Risk: 0.034136
+Weight 1: 0.300000, Weight 2: 1.425151, Weight 3: 0.320501, Weight 4: 0.553987, Average Error: 6.403344
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Devlin Hodges, pts: 9.174196, risk: 0.017686, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
+RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
+WR1: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
+WR2: Kelvin Harmon, pts: 9.765184, risk: 0.016464, weight: 1.0000
+TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
+DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
+K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.002636, Total Team Risk: 0.034151
+Weight 1: 0.300000, Weight 2: 1.424151, Weight 3: 0.321501, Weight 4: 0.553987, Average Error: 6.403344
+
+
+Selected Team for Week 17 with cvx_status: Solved
+QB: Devlin Hodges, pts: 9.174196, risk: 0.017679, weight: 1.0000
+RB1: Kenyan Drake O, pts: 31.157462, risk: 0.000000, weight: 1.0000
+RB2: De'Lance Turner, pts: 0.276520, risk: 0.000000, weight: 1.0000
+WR1: Kelvin Harmon, pts: 9.765184, risk: 0.016464, weight: 1.0000
+WR2: Allen Hurns, pts: 7.933852, risk: 0.000000, weight: 1.0000
+TE: Clive Walford, pts: 3.224315, risk: 0.000000, weight: 1.0000
+DST: Miami Dolphins, pts: 3.554438, risk: 0.000000, weight: 1.0000
+K: Jason Sanders, pts: 14.916668, risk: 0.000000, weight: 1.0000
+Total Team Score: 80.002636, Total Team Risk: 0.034144
+Weight 1: 0.300000, Weight 2: 1.424151, Weight 3: 0.320501, Weight 4: 0.554987, Average Error: 6.403344
 
 
