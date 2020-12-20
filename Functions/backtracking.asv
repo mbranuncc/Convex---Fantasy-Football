@@ -88,7 +88,7 @@ elseif( size( weightsArr, 1 ) / iterNum  == baseInd )
     
     Egrads = zeros( numTerms, 1 );
     for i = 1:length( Egrads )
-       stepErr = weightsArr( baseInd + i, end - 1 );
+       stepErr = weightsArr( end - numTerms + i, end - 1 );
        
        Egrads( i ) = -1 * ( baseError - stepErr ) / step_size;
     end
