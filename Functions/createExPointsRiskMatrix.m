@@ -1,4 +1,4 @@
-function [ A, b ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K )
+function [ A, b ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K, rMax )
 
 % error message
 emsg = "ERROR: createExPointsMatrix: ";
@@ -56,12 +56,12 @@ A = [ A( 1, : ); A( 2, : ); A( 2, : ); A( 3, : ); A( 3, : ); A( 4, : ); A( 5, : 
 
 
 % create preliminary b
-b = [ QBv( :, 2 )', 1000 * ones( 1, p - QBvl );
-        RBv( :, 2 )', 1000 * ones( 1, p - RBvl );
-        WRv( :, 2 )', 1000 * ones( 1, p - WRvl );
-        TEv( :, 2 )', 1000 * ones( 1, p - TEvl );
-        DSTv( :, 2 )', 1000 * ones( 1, p - DSTvl );
-        Kv( :, 2 )', 1000 * ones( 1, p - Kvl ) ];
+b = [ QBv( :, 2 )', rMax * ones( 1, p - QBvl );
+        RBv( :, 2 )', rMax * ones( 1, p - RBvl );
+        WRv( :, 2 )', rMax * ones( 1, p - WRvl );
+        TEv( :, 2 )', rMax * ones( 1, p - TEvl );
+        DSTv( :, 2 )', rMax * ones( 1, p - DSTvl );
+        Kv( :, 2 )', rMax * ones( 1, p - Kvl ) ];
     
 b = [ b( 1, : ); b( 2, : ); b( 2, : ); b( 3, : ); b( 3, : ); b( 4, : ); b( 5, : ); b( 6, : ) ];
 end

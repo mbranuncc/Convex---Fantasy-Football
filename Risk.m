@@ -1,45 +1,16 @@
 clc; clear all; close all
 
+parameters;
+
 addpath( "Functions/" );
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% define functions to use for expected value and team selection
-exVal = @ExpectedPts_RR;
-% exVal = @ExpectedPts_LG;
-% exVal = @ExpectedPts_LR;
 
-% tmSel = @TS_MultiOpt_Float;
-tmSel = @TS_MultiOpt_Int; % use this one if Mosek is not installed
-% tmSel = @TS_UniOpt_Int; % <- Requries Mosek
-
-% gradWeights = @updateWeights;
-gradWeights = @backtracking;
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+load( 'parameters.mat' );
 
 tic;
 
 outputFileName = "Generated Teams.txt";
 fd = fopen( outputFileName, 'w' );
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Define working parameters
-
-fittingOrder = 3;
-RR_weight = 15;
-des_pts = 80;
-
-dataSets = [ 1, 16;
-            17, 17 ];
-
-wk = dataSets( 2, 1 );
-
-alpha = .0001;
-gradStep = .001;
-t = 0.001;
-endPt = 1;
-
-rArr = 0.1:0.1:0.9;
-des_rsk = 15;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -63,13 +34,14 @@ for z = 1:length( rArr )
 
     rsk_wght = rArr( z );
     scr_wght = 1 - rsk_wght;
-    % just for testing
-    currentWeights = [ 0.3, 0.5, 0.4, 0.1 ];
-    % currentWeights = [ 0.5, 0.5, 0.3 ];
+
+    currentWeights = baseWeights;
+
     prevErr = -1;
     weightsArr = [];
     gradHist = [];
     errHist = [];
+    totalErrHist = [];
 
     counter = 0;
     cutOff = 8 * ( numel( currentWeights ) + 1 );
@@ -96,14 +68,23 @@ for z = 1:length( rArr )
             Week = zeros( pNum, 1 );
             Position = strings( pNum, 1 );
 
-            parfor ( i = 1:length( Player ), 20 )
+            for ( i = 1:length( Player ) )
+               % check if player is injured
+               injInd = find( strcmp( Player( i ), Injury{ :, 1 } ) == 1, 1, 'first' );
+               if( injInd > 0 )
+                   if( Injury{ injInd, 2 } > 0 )
+                       risk( i ) = rMax;
+                       continue;
+                   end
+               end
+               
                % get data from the player's team
                playerTeam = playerTeamData( train, TeamRankings, Player( i ) );
 
                % get data from the player's opponent
                oppTeam = playerTeam{ 1, getHeaderInd( playerTeam, strcat( "x", int2str( wk ) ) ) };
                if( strcmp( oppTeam, "BYE" ) )
-                   risk( i ) = 1000;
+                   risk( i ) = rMax;
                    continue;
                end
                oppTeam = getTeamData( TeamRankings, oppTeam );
@@ -135,7 +116,7 @@ for z = 1:length( rArr )
             T = table( Player, ExpectedPoints, risk, Week, Position );
 
             [ QB, RB, WR, TE, DST, K ] = GeneratePositions( T );
-            [ A, r ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K );
+            [ A, r ] = createExPointsRiskMatrix( QB, RB, WR, TE, DST, K, rMax );
 
             % normalize risk
             r = mNormalize( r, [ 0 1 ] );
@@ -157,7 +138,6 @@ for z = 1:length( rArr )
 
             % pick any player over arbitrary threshold
             [ row, col ] = find( x > 0.3 );
-
 
             picks = [ row, col ];
             picks = sortrows( picks, 1 );
@@ -215,13 +195,15 @@ for z = 1:length( rArr )
             end
         end
 
+        totalErrHist = [ totalErrHist; totalErr ];
+        
         if( counter > cutOff )
             break;
         end
 
         prevErr = totalErr;
 
-        [ newWeights, weightsArr, gradient, t ] = gradWeights( currentWeights, currErr, prevErr, weightsArr, alpha, t, gradStep );
+        [ newWeights, weightsArr, gradient, t ] = gradWeights( currentWeights, totalErr, prevErr, weightsArr, alpha, t, gradStep );
 
         if( numel( gradient ) == 1 )
             tmp = zeros( length( currentWeights ), 1 );
@@ -237,7 +219,6 @@ for z = 1:length( rArr )
             break;
         end
 
-
         currentWeights = newWeights;
 
         counter = counter + 1;
@@ -245,17 +226,15 @@ for z = 1:length( rArr )
 
     %%
     plot( errHist, 'o-' );
-    export_fig( sprintf( "Media/Descent_Path_A%2.2f_r%2.2f_a%1.6f.png", scr_wght, rsk_wght, alpha ) );
+    saveas( sprintf( "Media/Descent_Path_A%2.2f_r%2.2f_a%1.6f.png", scr_wght, rsk_wght, alpha ) );
     save( sprintf( "Media/gradient_A%2.2f_r%2.2f_a%1.6f.mat", scr_wght, rsk_wght, alpha ), 'gradHist' );
     save( sprintf( "Media/errHist_A%2.2f_r%2.2f_a%1.6f.mat", scr_wght, rsk_wght, alpha ), 'errHist' );
-
+    save( sprintf( "Media/weightsArr_A%2.2f_r%2.2f_a%1.6f.mat", scr_wght, rsk_wght, alpha ), 'weightsArr' );
 end
 fclose( 'all' );
 
 delete( 'Injury.mat' );
 delete( 'TeamRankings.mat' );
-
-save( 'weights.mat', 'weightsArr' );
 
 clc; clear all;
 

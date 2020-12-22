@@ -26,7 +26,6 @@ cvx_begin quiet
         x >= 0.0;
         x <= 1.0;
         sum( sum( x ) ) == m;
-%         sum( sum( x ) ) >= m;
         
         for i = 1:m
             trace( diag( x( i, : ) ) ) <= 1.0;

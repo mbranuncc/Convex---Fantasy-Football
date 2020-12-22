@@ -31,7 +31,7 @@ x1 = inv( A' * A + I ) * A' * pts;
 %     vpol = vpol.*u2 + x1( i );
 % end
 % vpol( end )
-% 
+% figure(1)
 % plot( u2, vpol, '-', u, pts, 'o' );
 
 f = polyval( x1, wk );

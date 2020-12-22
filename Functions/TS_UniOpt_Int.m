@@ -1,4 +1,4 @@
-function [ ox ] = TS_UniOpt_Int( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
+function [ ox, cvx_stat ] = TS_UniOpt_Int( A, b, des_pts, rsk_wght, scr_wght, des_rsk )
 
 fprintf("Starting Team Optimization...");
 
@@ -31,6 +31,7 @@ cvx_begin quiet
 cvx_end
 
 fprintf("%s\n", cvx_status );
+cvx_stat = cvx_status;
 
 ox = x;
 
